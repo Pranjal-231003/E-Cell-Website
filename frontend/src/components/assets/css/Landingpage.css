@@ -41,8 +41,8 @@
     font-size: 7rem;
     text-align: center;
 color: transparent;
-   left: 15.4rem;
-   top: 5rem;
+   left: 13.6rem;
+   top: 10.3rem;
    -webkit-text-stroke:2px #01FFF0;
 
     z-index: 99; 
@@ -50,7 +50,7 @@ color: transparent;
 .cell{
     -webkit-text-stroke: 2px rgb(255, 255, 255);
     position:absolute;
-    top: 12rem;
+    top: 18rem;
     font-size: 7rem;
     left: 38rem;
     color: transparent;
