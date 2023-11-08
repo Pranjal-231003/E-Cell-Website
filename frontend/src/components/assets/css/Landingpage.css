@@ -44,7 +44,7 @@ overflow: hidden;;
   font-size: 7rem;
   text-align: center;
 color: transparent;
- left: 12.2rem;
+ left: 13.5rem;
  top: 10.3rem;
  -webkit-text-stroke:2px #01FFF0;
 
@@ -64,14 +64,22 @@ color: transparent;
     transform: translateY(20%);
   }
   to {
-    transform: translateY(0);
+    transform: translateY(0%);
   }
 }
 
+@keyframes moveupp {
+  from {
+    transform: translateY(20%);
+  }
+  to {
+    transform: translateY(-55%);
+  }
+}
 .Ecell_container {
   animation: moveUp 2s;
 }
 
 .stroke{
-  animation: moveUp 1s;
+  animation: moveupp 2s;
 }
