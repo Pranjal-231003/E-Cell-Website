@@ -1,36 +1,36 @@
-import { useState } from "react";
-import logo from "./assets/image/logo.svg"
-import { FaBars, FaTimes } from "react-icons/fa";
-import "./assets/css/Navbar.css";
 
-const Navbar = () => {
-  const [isNavOpen, setIsNavOpen] = useState(false);
-
-  const handleNavClick = () => {
-    setIsNavOpen(!isNavOpen);
-  };
-
-  const closeNav = () => {
-    setIsNavOpen(false);
-  };
-
+import React from 'react'
+import "./assets/css/Navbar.css"
+function Navbar() {
   return (
-    <header className="navbar">
-      <img className="logo" src={logo} alt="" />
-      <nav className={`nav-links ${isNavOpen ? "show-nav" : "hide-nav"}`}>
-        <a href="/#">Home</a>
-        <a href="/#">My work</a>
-        <a href="/#">Blog</a>
-        <a href="/#">About me</a>
-      </nav>
-      <div className="nav-icon" onClick={handleNavClick}>
-        {isNavOpen ? <FaTimes /> : <FaBars />}
-      </div>
-      {isNavOpen && (
-        <div className="overlay" onClick={closeNav}></div>
-      )}
-    </header>
-  );
-};
+    <div className='navbarr'>
+    <nav className="navbar navbar-expand-lg ">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="/">Navbar</a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarNav">
+      <ul className="navbar-nav">
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/">Features</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/">Pricing</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link disabled" aria-disabled="true" href='/'>Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </div>
+  )
+}
 
-export default Navbar;
+export default Navbar
+
