@@ -8,47 +8,33 @@ import img5 from './assets/image/imge (5).jpg';
 import img6 from './assets/image/imge (6).jpg';
 
 function Gallery() {
-  const images = [img1, img2, img3, img4, img5, img6];
-  const [currentIndex, setCurrentIndex] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 2000);
 
-    return () => {
-      clearInterval(interval);
-    };
-  }, []);
-
-  const goToPrevious = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
-  };
-
-  const goToNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
 
   return (
     <div className="gallery_contain">
-      <h1>Gallery</h1>
-      <div className="carousel">
-        <div className="image-contain" id="imgs">
-        {images.map((src, index) => (
-    // eslint-disable-next-line jsx-a11y/img-redundant-alt
-    <img
-      key={index}
-      src={src}
-      alt={`Image ${index + 1}`}
-      style={{ display: index === currentIndex ? 'block' : 'none' }}
-    />
-  ))}
+        <div className="grid_parent">
+            <div className="grid">
+                <div className="grid_height"></div>
+            </div>
+            <div className="grid">
+                <div className="grid_height"></div>
+            </div>
+            <div className="grid">
+                <div className="grid_height"></div>
+            </div> 
+            <div className="grid"></div>
         </div>
-        <div className="buttons-contain">
-          <button id="left" onClick={goToPrevious}>Prev</button>
-          <button id="right" onClick={goToNext}>Next</button>
+        <div className="text_parent">
+            <div className="gallary_parent">
+                <h2>Gallary</h2>
+                <div className="view">view Gallary</div>
+            </div>
         </div>
-      </div>
+        <div className="grid_2">
+            
+        </div>
+   
     </div>
   );
 }
