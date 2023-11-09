@@ -1,0 +1,46 @@
+.gallery_contain{
+    display: flex;
+    height: 100vh;
+   flex-direction: column;
+    width: 100%;
+    color: white;
+}
+
+.carousel{
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    height: 530px;
+    width: 500px;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+.image-contain{
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+    
+}
+#imgs{
+    width: 500px;
+    height: 500px;
+    object-fit: cover ;
+    border-radius: 10px 10px 0 0;
+}
+.buttons-contain{
+    display: flex;
+    justify-content: space-between;
+
+}
+button{
+    background-color: rebeccapurple;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    width: 49.5%;
+}
+button:hover{
+    opacity: 0.9;
+}
+button:focus{
+    outline: none;
+}
