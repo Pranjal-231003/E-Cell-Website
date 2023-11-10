@@ -7,7 +7,7 @@
     overflow: hidden;
     width: 100%;
     height: 100vh;
-    max-width: 1500px;
+  
     margin-right: auto;
     margin-left: auto;
     -webkit-box-orient: vertical;
@@ -155,8 +155,8 @@
 }
 .placement_1{
  
-    -ms-grid-row: span 2;
-    grid-row-start: span 2;
+    -ms-grid-row: span 4;
+    grid-row-start: span 4;
     -ms-grid-row-span: 2;
     grid-row-end: span 2;
     -ms-grid-column: span 3;
@@ -171,7 +171,7 @@
     -ms-grid-row-span: 5;
     grid-row-end: span 5;
     -ms-grid-column: span 3;
-    grid-column-start: span 3;
+    grid-column-start: span 2;
     -ms-grid-column-span: 3;
 }
 .placement_3{
@@ -185,24 +185,138 @@
     grid-column-end: span 2;
 
 }
+.placement_4{
+   
+    grid-row-start: span 4;
+    -ms-grid-row-span: 2;
+    grid-row-end: span 3;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 3
+}
 .g3{
     background-image: url("../image/imge\ \(1\).jpg");
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    transform: translate3d(0px, 0px, 0px) scale3d(0.2, 0.2, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transition: transform 0.4s ease;
+    transform: translate3d(0px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    
 }
+.g3.animated {
+    /* Adjust the duration and easing as needed */
+    transform: translate3d(0px, 20px, 0px) scale3d(1.2, 1.4, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
+  
+
 .g4{
     background-image: url("../image/imge\ \(2\).jpg");
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: transform 0.4s ease;
     transform: translate3d(0px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
 }
+.g4.animated {
+    /* Adjust the duration and easing as needed */
+    transform: translate3d(44px, 0px, 0px) scale3d(1.3, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
 .g5{
     background-image: url("../image/imge\ \(3\).jpg");
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: transform 0.4s ease;
+    transform: translate3d(5rem, 0px, 0px) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+}
+.g5.animated {
+    /* Adjust the duration and easing as needed */
+    transform: translate3d(79px, 19px, 0px) scale3d(0.95, 1.3, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
+.g6{
+    background-image: url("../image/imge\ \(4\).jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease;
     transform: translate3d(0px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
 }
+.g6.animated {
+    /* Adjust the duration and easing as needed */
+    transform: translate3d(44px, 0px, 0px) scale3d(01.05, 01, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
+.g7{
+    background-image: url("../image/imge\ \(5\).jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease;
+    transform: translate3d(0px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+
+}
+.g7.animated {
+    /* Adjust the duration and easing as needed */
+    transform:translate3d(-16px, 62px, 0px) scale3d(1.1, 1.2, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
+.g8{
+    background-image: url("../image/imge\ \(6\).jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease;
+    transform: translate3d(0px, 10px, 0px) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+}
+.g8.animated {
+    /* Adjust the duration and easing as needed */
+    transform:translate3d(44px, 20px, 0px) scale3d(1.3, 1.3, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
+.g9{
+    background-image: url("../image/imge\ \(7\).jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease;
+    transform: translate3d(0px, 23px, 0px)    scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+}
+.g9.animated {
+    /* Adjust the duration and easing as needed */
+    transform:translate3d(22px, -11px, 0px)    scale3d(0.93, 0.9, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
+.g10{
+    background-image: url("../image/imge\ \(9\).jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease;
+    transform: translate3d(7rem, 0px, 0px) scale3d(0.6, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+
+}
+.g10.animated {
+    /* Adjust the duration and easing as needed */
+    transform:translate3d(147px, -9px, 0px) scale3d(1.18, 1.1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
+.g11{
+    background-image: url("../image/imge\ \(10\).jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease;
+    transform: translate3d(45px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+
+}
+.g11.animated {
+    /* Adjust the duration and easing as needed */
+    transform:translate3d(67px, 0px, 0px) scale3d(0.85, 0.9, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
+.g12{
+    background-image: url("../image/imge\ \(11\).jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease;
+    transform: translate3d(0px, 18px, 0px) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+
+}
+.g12.animated {
+    /* Adjust the duration and easing as needed */
+    transform:translate3d(-10px, 36px, 0px) scale3d(1.1, 1.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
