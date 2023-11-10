@@ -32,7 +32,9 @@ function Gallery() {
             </div>
         </div>
         <div className="grid_2">
-            
+            < div className='placement_1 g3'></div>
+            < div className='placement_2 g4'></div>
+            < div className='placement_3 g5'></div>
         </div>
    
     </div>

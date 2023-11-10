@@ -13,7 +13,7 @@
 .club_name{
   
   font-size: 7rem;
-
+  overflow: hidden;
   text-align: center;
 
   position: relative;
