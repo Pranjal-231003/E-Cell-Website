@@ -316,7 +316,7 @@
   @media (min-width: 1281px){
     .g10.animated {
         /* Adjust the duration and easing as needed */
-        transform:translate3d(133px, -9px, 0px) scale3d(1.18, 1.1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+        transform:translate3d(137px, -9px, 0px) scale3d(1.18, 1.1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
       }
   }
 
@@ -367,6 +367,10 @@
       .g5.animated {
         /* Adjust the duration and easing as needed */
         transform: translate3d(75px, 19px, 0px) scale3d(0.95, 1.3, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+      }
+      .g12.animated {
+        /* Adjust the duration and easing as needed */
+        transform:translate3d(7px, 36px, 0px) scale3d(1.1, 1.8, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
       }
   }
 
