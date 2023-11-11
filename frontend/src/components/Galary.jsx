@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './assets/css/Galary.css';
-import img1 from './assets/image/imge (1).jpg';
-import img2 from './assets/image/imge (2).jpg';
-import img3 from './assets/image/imge (3).jpg';
-import img4 from './assets/image/imge (4).jpg';
-import img5 from './assets/image/imge (5).jpg';
-import img6 from './assets/image/imge (6).jpg';
+// import img1 from './assets/image/imge (1).jpg';
+// import img2 from './assets/image/imge (2).jpg';
+// import img3 from './assets/image/imge (3).jpg';
+// import img4 from './assets/image/imge (4).jpg';
+// import img5 from './assets/image/imge (5).jpg';
+// import img6 from './assets/image/imge (6).jpg';
 
 function Gallery() {
     const [isGalleryClicked, setIsGalleryClicked] = useState(false);
@@ -15,11 +15,11 @@ function Gallery() {
             setIsGalleryClicked(!isGalleryClicked);
        
     }
-    const g3Style = {
-        transform: isGalleryClicked
-          ? 'translate3d(0px, 20px, 0px) scale3d(1.2, 1.4, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)'
-          : 'translate3d(0px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
-      };
+    // const g3Style = {
+    //     transform: isGalleryClicked
+    //       ? 'translate3d(0px, 20px, 0px) scale3d(1.2, 1.4, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)'
+    //       : 'translate3d(0px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+    //   };
   return (
     <div className="gallery_contain">
         <div className="grid_parent">
