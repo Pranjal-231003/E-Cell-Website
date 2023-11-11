@@ -191,7 +191,7 @@
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: transform 0.4s ease;
+    transition: transform 0.5s ease;
     transform: translate3d(0px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     
 }
@@ -205,7 +205,7 @@
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: transform 0.4s ease;
+    transition: transform 0.5s ease;
     transform: translate3d(0px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
 }
 .g4.animated {
@@ -217,7 +217,7 @@
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: transform 0.4s ease;
+    transition: transform 0.5s ease;
     transform: translate3d(5rem, 0px, 0px) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
 }
 .g5.animated {
@@ -229,7 +229,7 @@
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: transform 0.4s ease;
+    transition: transform 0.5s ease;
     transform: translate3d(0px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
 }
 .g6.animated {
@@ -241,7 +241,7 @@
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: transform 0.4s ease;
+    transition: transform 0.5s ease;
     transform: translate3d(0px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
 
 }
@@ -254,7 +254,7 @@
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: transform 0.4s ease;
+    transition: transform 0.5s ease;
     transform: translate3d(0px, 10px, 0px) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
 }
 .g8.animated {
@@ -266,7 +266,7 @@
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: transform 0.4s ease;
+    transition: transform 0.5s ease;
     transform: translate3d(0px, 23px, 0px)    scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
 }
 .g9.animated {
@@ -278,7 +278,7 @@
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: transform 0.4s ease;
+    transition: transform 0.5s ease;
     transform: translate3d(7rem, 0px, 0px) scale3d(0.6, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
 
 }
@@ -291,7 +291,7 @@
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: transform 0.4s ease;
+    transition: transform 0.5s ease;
     transform: translate3d(45px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
 
 }
@@ -304,7 +304,7 @@
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: transform 0.4s ease;
+    transition: transform 0.5s ease;
     transform: translate3d(0px, 18px, 0px) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
 
 }
