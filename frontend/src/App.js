@@ -25,8 +25,8 @@ function App() {
         <Preloader />
       ) : (
         <>
-          {/* <Navbar />
-          <Landingpage mountainMoved={mountainMoved} />  */}
+          <Navbar />
+          <Landingpage mountainMoved={mountainMoved} /> 
           <Galary></Galary>
         </>
       )}
