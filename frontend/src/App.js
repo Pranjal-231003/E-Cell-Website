@@ -3,7 +3,7 @@ import './App.css';
 import Landingpage from './components/Landingpage';
 import Navbar from './components/Navbar';
 import Preloader from './components/preloader/Preloader.jsx'; // Import the Preloader component
-import Galary from './components/Galary.jsx';
+import Gallery from './components/Gallery.jsx';
 
 function App() {
   const [loader, setLoader] = useState(true); // Set loader to true initially
@@ -27,7 +27,7 @@ function App() {
         <>
           <Navbar />
           <Landingpage mountainMoved={mountainMoved} /> 
-          <Galary></Galary>
+          <Gallery></Gallery>
         </>
       )}
     </>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './assets/css/Galary.css';
+import './assets/css/Gallery.css';
 // import img1 from './assets/image/imge (1).jpg';
 // import img2 from './assets/image/imge (2).jpg';
 // import img3 from './assets/image/imge (3).jpg';
@@ -36,8 +36,8 @@ function Gallery() {
         </div>
         <div className="text_parent">
             <div className="gallary_parent" onClick={handleonclick}>
-                <h2>Gallary</h2>
-                <div className="view">view Gallary</div>
+                <h2>Gallery</h2>
+                <div className="view">view Gallery</div>
             </div>
         </div>
         <div className="grid_2">
