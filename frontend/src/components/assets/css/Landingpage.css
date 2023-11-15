@@ -129,6 +129,9 @@ color: transparent;
     left: -42rem;
     width: 300%;
   }
+  .Ecell_container{
+    height: 45vh;
+  }
 }
 @media (max-width:690px) {
   .cell{
@@ -165,7 +168,7 @@ color: transparent;
   }
   .Ecell_container img{
     top: -17rem;
-    left: -26rem;
+    left: -29rem;
     width: 300%;
   }
 
@@ -185,7 +188,7 @@ color: transparent;
   }
   .Ecell_container img{
     top: -13rem;
-    left: -29rem;
+    left: -26rem;
     width: 320%;
   }
 
