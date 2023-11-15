@@ -10,8 +10,9 @@ function Landingpage({ mountUp }) {
           <h1 className="club_name">ENTREPRENEURSHIP</h1>
           <h1 className="stroke">ENTREPRENEURSHIP</h1>
         </div>
-        <img src={image} alt="" srcSet="" />
         <h1 className="cell">CELL</h1>
+        <img src={image} alt="" srcSet="" />
+        
       </div>
     </>
   );

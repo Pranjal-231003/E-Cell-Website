@@ -27,9 +27,9 @@
   z-index:2rem ;
 }
 .Ecell_container img{
-  width: 100%;
+  
   position: relative;
-  top: -19rem;
+  top: -51rem;
   left:-1rem;
   z-index: 10;
   
@@ -38,22 +38,22 @@
 
 }
 .stroke{
- position: absolute;
+ position: relative;
   font-size: 7rem;
-  text-align: center;
+  
 color: transparent;
- left: 13rem;
- top: 10.3rem;
- -webkit-text-stroke:2px #01FFF0;
+ left: 0rem;
+ top: -9rem;
+ -webkit-text-stroke:1.8px #01FFF0;
 
   z-index: 99; 
 }
 .cell{
   -webkit-text-stroke: 2px rgb(255, 255, 255);
-  position:absolute;
-  top: 18rem;
+  position:relative;
+ top: -20rem;
   font-size: 7rem;
-  left: 38rem;
+  text-align: center;
   color: transparent;
   z-index: 99;
 }
@@ -66,18 +66,151 @@ color: transparent;
   }
 }
 
-@keyframes moveupp {
-  from {
-    transform: translateY(20%);
-  }
-  to {
-    transform: translateY(-55%);
-  }
-}
+
 .Ecell_container {
   animation: moveUp 2s;
 }
 
 .stroke{
-  animation: moveupp 2s;
+  text-align: center;
+  animation: moveUp 2.5s;
+}
+
+@media (max-width:1140px) {
+  .cell{
+    font-size: 6rem;
+    top: -17rem;
+  }
+  .stroke{
+    font-size: 6rem;
+    top: -7rem;
+  }
+  .club_name{
+    font-size: 6rem;
+  }
+  .Ecell_container img{
+    top: -44rem;
+    width: 110%;
+  }
+}
+@media (max-width:970px) {
+  .cell{
+    font-size: 5rem;
+    top: -14rem;
+  }
+  .stroke{
+    font-size: 5rem;
+    top: -5rem;
+  }
+  .club_name{
+    font-size: 5rem;
+  }
+  .Ecell_container img{
+    top: -37rem;
+    left: -11rem;
+    width: 140%;
+  }
+  .Ecell_container{
+    height: 70vh;
+  }
+}
+@media (max-width:790px) {
+  .cell{
+    font-size: 4rem;
+    top: -10rem;
+  }
+  .stroke{
+    font-size: 4rem;
+    top: -3rem;
+  }
+  .club_name{
+    font-size: 4rem;
+  }
+  .Ecell_container img{
+    top: -29rem;
+    left: -14rem;
+    width: 160%;
+  }
+}
+@media (max-width:690px) {
+  .cell{
+    font-size: 3.6rem;
+    top: -8rem;
+  }
+  .stroke{
+    font-size: 3.6rem;
+    top: -2.2rem;
+  }
+  .club_name{
+    font-size: 3.6rem;
+  }
+  .Ecell_container img{
+    top: -26rem;
+    left: -14rem;
+    width: 165%;
+  }
+}
+@media (max-width:690px) {
+  .cell{
+    font-size: 3.2rem;
+    top: -6rem;
+  }
+  .stroke{
+    font-size: 3.2rem;
+    top: -0.4rem;
+  }
+  .club_name{
+    font-size: 3.2rem;
+    top: 6rem;
+  }
+  .Ecell_container img{
+    top: -23rem;
+    left: -9rem;
+    width: 150%;
+  }
+
+}
+@media (max-width:530px) {
+  .cell{
+    font-size: 2.6rem;
+    top: -3rem;
+  }
+  .stroke{
+    font-size: 2.6rem;
+    top: 0.9rem;
+  }
+  .club_name{
+    font-size: 2.6rem;
+    top: 6rem;
+  }
+  .Ecell_container img{
+    top: -17rem;
+    left: -12rem;
+    width: 180%;
+  }
+  .Ecell_container{
+    height: 64vh;
+  }
+}
+@media (max-width:420px) {
+  .cell{
+    font-size: 2.2rem;
+    top: -2rem;
+  }
+  .stroke{
+    font-size: 2.2rem;
+    top: 1.65rem;
+  }
+  .club_name{
+    font-size: 2.2rem;
+    top: 6rem;
+  }
+  .Ecell_container img{
+    top: -15rem;
+    left: -10rem;
+    width: 185%;
+  }
+  .Ecell_container{
+    height: 60vh;
+  }
 }
