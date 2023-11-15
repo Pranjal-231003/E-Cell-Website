@@ -107,9 +107,9 @@ color: transparent;
     font-size: 4rem;
   }
   .Ecell_container img{
-    top: -29rem;
-    left: -14rem;
-    width: 160%;
+    top: -28rem;
+    left: -46rem;
+    width: 300%;
   }
 }
 @media (max-width:690px) {
@@ -125,9 +125,9 @@ color: transparent;
     font-size: 3.6rem;
   }
   .Ecell_container img{
-    top: -26rem;
-    left: -14rem;
-    width: 165%;
+    top: -24rem;
+    left: -42rem;
+    width: 300%;
   }
 }
 @media (max-width:690px) {
@@ -165,8 +165,8 @@ color: transparent;
   }
   .Ecell_container img{
     top: -17rem;
-    left: -12rem;
-    width: 180%;
+    left: -26rem;
+    width: 300%;
   }
 
 }
@@ -184,13 +184,11 @@ color: transparent;
     top: 6rem;
   }
   .Ecell_container img{
-    top: -15rem;
-    left: -10rem;
-    width: 185%;
+    top: -13rem;
+    left: -29rem;
+    width: 320%;
   }
-  .Ecell_container{
-    height: 60vh;
-  }
+
   .Ecell_container {
     animation: moveUp 2s;
   }
