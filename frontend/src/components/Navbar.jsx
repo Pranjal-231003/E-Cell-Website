@@ -18,10 +18,11 @@ const Navbar = () => {
     <header className="navbar">
       <img className="logo" src={logo} alt="" />
       <nav className={`nav-links ${isNavOpen ? "show-nav" : "hide-nav"}`}>
-        <a href="/#">Home</a>
-        <a href="/#">My work</a>
-        <a href="/#">Blog</a>
-        <a href="/#">About me</a>
+        <a href="/#">About</a>
+        <a href="/#">E-Summit</a>
+        <a href="/#">Events</a>
+        <a href="/#">Gallery</a>
+        <a href="/#">Contact Us</a>
       </nav>
       <div className="nav-icon" onClick={handleNavClick}>
         {isNavOpen ? <FaTimes /> : <FaBars />}
