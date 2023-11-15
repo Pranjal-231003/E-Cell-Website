@@ -92,9 +92,7 @@ color: transparent;
     left: -11rem;
     width: 140%;
   }
-  .Ecell_container{
-    height: 70vh;
-  }
+
 }
 @media (max-width:790px) {
   .cell{
@@ -170,9 +168,7 @@ color: transparent;
     left: -12rem;
     width: 180%;
   }
-  .Ecell_container{
-    height: 64vh;
-  }
+
 }
 @media (max-width:420px) {
   .cell{
