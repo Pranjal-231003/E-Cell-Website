@@ -57,24 +57,6 @@ color: transparent;
   color: transparent;
   z-index: 99;
 }
-@keyframes moveUp {
-  from {
-    transform: translateY(20%);
-  }
-  to {
-    transform: translateY(0%);
-  }
-}
-
-
-.Ecell_container {
-  animation: moveUp 2s;
-}
-
-.stroke{
-  text-align: center;
-  animation: moveUp 2.5s;
-}
 
 @media (max-width:1140px) {
   .cell{
@@ -213,4 +195,26 @@ color: transparent;
   .Ecell_container{
     height: 60vh;
   }
+  .Ecell_container {
+    animation: moveUp 2s;
+  }
 }
+
+.Ecell_container img {
+  animation: moveUp 2s;
+}
+
+.stroke{
+  text-align: center;
+
+}
+
+@keyframes moveUp {
+  from {
+    transform: translateY(20%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
