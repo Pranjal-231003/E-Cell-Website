@@ -8,6 +8,7 @@
   background-color: black;
   z-index: 0;
   overflow:hidden;
+  text-align: center;
 }
 
 .club_name{
@@ -32,7 +33,10 @@
   top: -51rem;
   left:-1rem;
   z-index: 10;
-    
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 
 
 
@@ -188,7 +192,7 @@ color: transparent;
   }
   .Ecell_container img{
     top: -13rem;
-    left: -26rem;
+    left: -29rem;
     width: 320%;
   }
 
