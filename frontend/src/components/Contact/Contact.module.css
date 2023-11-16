@@ -94,12 +94,12 @@
 .submit{
     border-radius: 0.8125rem;
     background: #00FEDF;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 1.3rem;
     padding: 0.6rem;
-    font-weight: 650;
+    font-weight: bolder;
     width: 100%;
-    font-family: 'Montserrat', sans-serif;
 }
 .submit:hover{
     cursor: pointer;
