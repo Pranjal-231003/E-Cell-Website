@@ -54,6 +54,7 @@
     width: 95%;
     display: flex;
     flex-wrap: wrap;
+    padding-left: 0.6rem;
 }
 
 .logo1{
@@ -80,6 +81,7 @@
     font-size: 1.15rem;
     width: 100%;
     margin-bottom: 6rem;
+    padding-left: 0.6rem;
 }
 
 .logo2{
@@ -94,7 +96,6 @@
 .submit{
     border-radius: 0.8125rem;
     background: #00FEDF;
-    font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 1.3rem;
     padding: 0.6rem;
