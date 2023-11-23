@@ -9,7 +9,6 @@
   box-shadow: 0 8px 32px 0 rgba(84, 84, 84, 0.37);
   backdrop-filter: blur( 4.5px );
   -webkit-backdrop-filter: blur( 4.5px );
-  border-radius: 10px;
   border: 1px solid rgba(236, 234, 234, 0.18);
   width: 100%;
   z-index: 1000;
