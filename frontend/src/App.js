@@ -1,12 +1,10 @@
-
+import React, { useEffect } from 'react';
 import './App.css';
-import Landingpage from './components/Landingpage';
+import Events from './Events';
 
 function App() {
   return (
-    <>
-    <Landingpage></Landingpage>
-    </>
+    <Events />
   );
 }
 
