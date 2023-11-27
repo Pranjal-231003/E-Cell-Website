@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import Preloader from './components/preloader/Preloader.jsx'; // Import the Preloader component
 import Gallery from './components/Gallery.jsx';
 import Contact from './components/Contact/Contact.jsx';
-
+import Event from './components/Events.jsx'
 function App() {
   const [loader, setLoader] = useState(true); // Set loader to true initially
   const [mountainMoved, setMountainMoved] = useState(false); // Define mountainMoved state
@@ -28,6 +28,7 @@ function App() {
         <>
           <Navbar />
           <Landingpage mountainMoved={mountainMoved} /> 
+          <Event/>
           <Gallery></Gallery>
           <Contact />
         </>
