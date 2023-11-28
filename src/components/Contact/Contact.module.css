@@ -1,0 +1,236 @@
+.main{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    background: url('./bkg1.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.box{
+    width: 35%;
+    margin-left: 6rem;
+    margin-top: 5rem;
+    line-height: 2.4rem;
+}
+
+.get{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5.25rem;
+    font-weight: 700;
+    white-space: nowrap;
+    margin-bottom: 8rem;
+}
+
+.touch{
+    color: #00FEDF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5.25rem;
+    font-weight: 700;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.inputContainer2{
+    position: relative;
+    width: 45%;
+}
+
+.first{
+    border-radius: 0.8125rem;
+    background: #F4F4F4;
+    box-shadow: 0px 5px 4px 2px rgba(0, 0, 0, 0.25) inset;
+    font-size: 1.15rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 0.2rem;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0.6rem;
+}
+
+.logo1{
+    color: rgb(81, 79, 79);
+    position: absolute;
+    top: 0.5rem;
+    right: 0.6rem;
+    height: 1.7rem;
+    width: 1.7rem;
+}
+
+.inputContainer1{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.email{
+    border-radius: 0.8125rem;
+    background: #F4F4F4;
+    box-shadow: 0px 5px 4px 2px rgba(0, 0, 0, 0.25) inset;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    font-size: 1.15rem;
+    width: 100%;
+    margin-bottom: 6rem;
+    padding-left: 0.6rem;
+}
+
+.logo2{
+    color: rgb(81, 79, 79);
+    position: absolute;
+    top: 0.6rem;
+    right: 0.6rem;
+    height: 1.7rem;
+    width: 1.7rem;
+}
+
+.submit{
+    border-radius: 0.8125rem;
+    background: #00FEDF;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0.6rem;
+    font-weight: bolder;
+    width: 100%;
+}
+.submit:hover{
+    cursor: pointer;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3.4rem;
+}
+
+.insta{
+    width: 1.875rem;
+    height: 1.875rem;
+    color: #FFFFFF;
+}
+.insta:hover{
+    color: #00FEDF;
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px){ 
+    .get{
+        font-size: 5rem;
+    }
+    .touch{
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){ 
+    .get{
+        font-size: 4rem;
+    }
+    .touch{
+        font-size: 4rem;
+    }
+    .inputContainer2{
+        flex-wrap: wrap;
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+    .box{
+        margin-top: 2rem;
+    }
+    .name{
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+    .first{
+        width: 98%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) { 
+    .main{
+        background: rgba(0, 0, 0, 0.68) url('./bkg2.png');
+        background-blend-mode: darken;
+        background-size: cover;
+        background-position: center;
+    }
+    .get{
+        font-size: 3rem;
+    }
+    .touch{
+        font-size: 3rem;
+    }
+    .inputContainer2{
+        flex-wrap: wrap;
+    }
+    .box{
+        margin-top: 2rem;
+        width: 45%;
+    }
+    .name{
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+    .inputContainer2{
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+    .first{
+        width: 98%;
+    }
+    .insta{
+        height: 1.6rem;
+        width: 1.6rem;
+    }
+    .social{
+        margin-top: 2.7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main{
+        background: rgba(0, 0, 0, 0.68) url('./bkg2.png');
+        background-blend-mode: darken;
+        background-size: cover;
+        background-position: center;
+    }
+    .get{
+        font-size: 2.5rem;
+    }
+    .touch{
+        font-size: 2.5rem;
+    }
+    .inputContainer2{
+        flex-wrap: wrap;
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+    .box{
+        margin-top: 1.8rem;
+        margin-left: 2rem;
+        width: 55%;
+    }
+    .name{
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+    .first{
+        width: 98%;
+    }
+    .insta{
+        height: 1.3rem;
+        width: 1.3rem;
+    }
+    .social{
+        margin-top: 2rem;
+    }
+}
+
