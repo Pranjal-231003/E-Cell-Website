@@ -5,7 +5,7 @@ function Footer() {
   return (
    <>
    <div className="footer_container">
-    <div className="line"></div>
+    <div className="line ds"></div>
     <div className="footer_content">
         <div className="group314">
             <h2>
@@ -22,6 +22,7 @@ function Footer() {
                 <img src={logo} alt="ecell" srcset="" />
                 <h1>ECELL</h1>
             </div>
+            <div className="line"></div>
             <div className="eclipse_de">
                 <div className="eclipse"></div>
                 <div className="eclipse"></div>

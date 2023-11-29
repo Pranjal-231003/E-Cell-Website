@@ -104,9 +104,35 @@ margin-left: 18px;
 margin-right: 18px;
 border-radius: 100px;
 }
+.logo_footer .line{
+    display: none;
+}
 @media (max-width:750px) {
+    .footer_container{
+        justify-content: start;
+        height: 350px;
+    }
     .group314{display: none;}
     .footer_content{
+        align-items: start;
         flex-direction: column;
+        
+        align-items: center ;
+    }
+    
+    .ds{
+        display: none;
+    }
+    .logo_footer img{
+        border: none;
+    }
+    .logo_footer h1{
+        display: none;
+    }
+    .logo_footer .line{
+        display: block;
+    }
+    .address{
+        text-align: center;
     }
 }
