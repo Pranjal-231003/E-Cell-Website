@@ -9,7 +9,7 @@
     justify-content: center;
 }
 .line{
-    width: 90%;
+    width: 1200px;
     height: 1px;
     
     background: rgba(255, 255, 255, 0.50);
@@ -46,9 +46,15 @@ font-weight: 400;
 line-height: 28px; /* 140% */
 margin: 5px;
 }
-.logo{
+.logo_footer{
     width: 35%;
 }
 .address{
     width: 25%;
+}
+@media (max-width:400px) {
+    .group314{display: none;}
+    .footer_content{
+        flex-direction: column;
+    }
 }

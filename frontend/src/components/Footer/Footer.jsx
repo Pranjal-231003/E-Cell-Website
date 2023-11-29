@@ -16,11 +16,11 @@ function Footer() {
             <h4>FAQ</h4>
 
         </div>
-        <div className="logo">
+        <div className="logo_footer">
 
         </div>
         <div className="address">
-            
+
         </div>
     </div>
     <div className="line"></div>
