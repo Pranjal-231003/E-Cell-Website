@@ -19,7 +19,7 @@ import img11 from '../assets/image/imge (11).jpg';
 
 const Gallery = () => {
   // Array of images to be displayed in the carousel
-  const images = [img1, img2, img3, img4, img5, img6];
+  const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11];
 
   // State to track the currently selected image
   const [selectedImage, setSelectedImage] = useState(images[0]);
