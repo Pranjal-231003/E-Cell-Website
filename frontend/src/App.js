@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
+import AboutUs from'./components/AboutUs/AboutUs.js'
+import ESummit from './components/ESummit/ESummit.js';
 import Landingpage from './components/Landingpage';
 import Navbar from './components/Navbar';
 import Preloader from './components/preloader/Preloader.jsx'; // Import the Preloader component
 import Gallery from './components/Gallery.jsx';
 import Contact from './components/Contact/Contact.jsx';
 import Event from './components/Events.jsx'
+import Team from './components/Team/Team.jsx'
 import Footer from './components/Footer/Footer.jsx';
 function App() {
   const [loader, setLoader] = useState(true); // Set loader to true initially
@@ -29,10 +32,13 @@ function App() {
         <>
           <Navbar />
           <Landingpage mountainMoved={mountainMoved} /> 
+          <AboutUs />
           <Event/>
           <Gallery></Gallery>
           <Contact />
+          <ESummit />
           <Footer></Footer>
+          <Team/>
         </>
       )}
     </>

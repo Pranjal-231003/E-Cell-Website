@@ -1,0 +1,383 @@
+@font-face {
+    font-family: Ecell;
+    src: url(../assets/AboutUs/Montserrat-VariableFont_wght.ttf);
+}
+
+.AboutUs{
+    margin-top: 50px;
+    height: 100vh;
+    
+       
+    
+}
+.images{
+    position: relative;
+
+}
+
+
+.gradiant{
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  margin-top: -10%;
+  /* height: 100%; */
+  width: 80%;
+  margin-left: 10%;
+}
+
+
+.rect3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 24%;
+    /* margin-top: 6%; */
+    width: 45.713px;
+    height: 47.7px;
+    transform: rotate(75deg);
+    border-radius: 10px;
+    background: #0FF;
+
+}
+.rect4{
+    position: absolute;
+    top: 0;
+   left: 0;
+  
+    /* margin-top: 6%; */
+    width: 25.945px;
+    height: 27.073px;
+    border-radius: 50%;
+    margin-left: 8%;
+    transform: rotate(-31.393deg);
+}
+.rect5{
+    position: absolute;
+    top: 0;
+    margin-left: 45%;
+  
+    margin-top: -6%;
+    width: 25.945px;
+    height: 27.073px;
+    border-radius: 30px;
+   
+    transform: rotate(0.393deg);
+
+}
+.rectdown{
+    position: absolute;
+    top: 0;
+    margin-left: 40%;
+    margin-top: 9%;
+    width: 25.945px;
+    height: 27.073px;
+    border-radius: 30px;
+   
+    transform: rotate(0.393deg);
+}
+.ell2{
+    position: absolute;
+    top: 0;
+   right: 0;
+   margin-right: 38%;
+    margin-top: -4%;
+   
+}
+.line2{
+    position: absolute;
+    top: 0;
+    margin-top: -3%;
+    margin-left: 25%;
+}
+.line1{
+    position: absolute;
+    top: 0;
+    /* margin-top: 12%; */
+    margin-left: 18%;
+}
+.heading{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-family: Ecell;
+    font-weight: 700;
+    margin-top: 10%;
+  
+}
+.container{
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.image{
+    width: 50%;
+    height: 50%;
+
+}
+
+.img{
+    margin-left: 15%;
+    flex: 1;
+    /* margin-top: -15%; */
+}
+.text{
+    flex: 1;
+    
+    margin-right: 13%;
+    font-size: 16px;
+    line-height: 2;
+    color: #FFF;
+    font-family: Ecell;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 520px){
+
+    .AboutUs{
+        height: 100vh;
+    }
+  
+
+    .gradiant{
+        display: none;
+      }
+      
+      .rect3{
+        margin-top: -5%;
+          margin-right: 2%;
+          width:27.713px;
+          height: 29.7px;
+          border-radius: 5px;
+      
+      }
+      .rect4{
+    
+          margin-top: -7%;
+          width: 19.945px;
+          height: 21.073px;
+          border-radius: 50%;
+          margin-left: 5%;
+          transform: rotate(-31.393deg);
+      }
+      .rect5{
+        display: none;
+      
+      }
+      .rectdown{
+
+          margin-left: 30%;
+          margin-top: 20%;
+          width: 22.945px;
+          height: 24.073px;
+      }
+      .ell2{
+         margin-right: 30%;
+          margin-top: -12%;
+          width: 7%;
+         
+      }
+      .line2{
+
+        height: 35px;
+        
+          margin-top: -13%;
+          margin-left: 25%;
+      }
+      .line1{
+          position: absolute;
+          top: 0;
+          margin-top: 12%;
+          margin-left: 18%;
+      }
+    .heading{
+        margin-top: 13%;
+        font-size: 40px;
+        margin-left: 2%;
+        margin-right: 2%;
+
+    }
+    .container{
+        margin-top: 10%;
+        /* text-align: center; */
+        justify-content: center;
+        
+        text-wrap: wrap;
+    }
+    .img{
+       display: none;
+    }
+    .text{
+        font-size: 12px;
+        line-height: 2;
+        color: #FFF;
+        margin-top: 12%;
+        margin-left: 12%;
+        letter-spacing: 0.5px;
+    
+        margin-right: 15%;
+        font-family: Ecell;
+        font-style: normal;
+        font-weight: 400;
+    }
+}
+
+
+@media screen and (max-width: 780px) and ( min-width: 520px){
+    .gradiant{
+        display: none;
+      }
+      
+      .rect3{
+        margin-top: -6%;
+          margin-right: 10%;
+          width:37.713px;
+          height: 39.7px;
+          border-radius: 5px;
+      
+      }
+      .rect4{
+    
+          margin-top: -5%;
+          width: 32.945px;
+          height: 36.073px;
+          border-radius: 50%;
+          margin-left: 10%;
+          transform: rotate(-31.393deg);
+      }
+      .rect5{
+        display: none;
+      
+      }
+      .rectdown{
+
+          margin-left: 32%;
+          margin-top: 14%;
+          width: 36.945px;
+          height: 38.073px;
+      }
+      .ell2{
+         margin-right: 32%;
+          margin-top: -9%;
+         
+          width: 7%;
+         
+      }
+      .line2{
+        
+       height: 40px;
+
+          margin-top: -11%;
+          margin-left: 29%;
+      }
+      .line1{
+          position: absolute;
+          top: 0;
+          margin-top: 12%;
+          margin-left: 18%;
+      }
+    .heading{
+        margin-top: 18%;
+        font-size: 43px;
+        margin-left: 2%;
+        margin-right: 2%;
+
+    }
+    .container{
+        margin-top: 10%;
+    }
+    .img{
+       display: none;
+    }
+    .text{
+        font-size: 18px;
+        line-height: 2;
+        color: #FFF;
+        margin-top: 8%;
+        margin-left: 12%;
+        letter-spacing: 0.7px;
+    
+        margin-right: 10%;
+    }
+}
+
+@media screen and (min-width: 780px) and ( max-width: 1080px){
+    .gradiant{
+        display: none;
+      }
+      
+      .rect3{
+        margin-top: -4%;
+          margin-right: 20%;
+          width:32.713px;
+          height: 34.7px;
+          border-radius: 5px;
+      
+      }
+      .rect4{
+    
+          margin-top: -5%;
+          width: 31.945px;
+          height: 33.073px;
+          border-radius: 50%;
+          margin-left: 12%;
+          transform: rotate(-31.393deg);
+      }
+      .rect5{
+        display: none;
+      
+      }
+      .rectdown{
+
+          margin-left: 32%;
+          margin-top: 11%;
+          width: 36.945px;
+          height: 38.073px;
+      }
+      .ell2{
+         margin-right: 32%;
+          margin-top: -11%;
+          width: 6%;
+         
+      }
+      .line2{
+        
+        height: 50px;
+
+          margin-top: -9%;
+          margin-left: 29%;
+      }
+      .line1{
+          position: absolute;
+          top: 0;
+          margin-top: 12%;
+          margin-left: 18%;
+      }
+    .heading{
+        margin-top: 18%;
+        font-size: 45px;
+        margin-left: 2%;
+        margin-right: 2%;
+
+    }
+    .container{
+        margin-top: 10%;
+    }
+    .img{
+       display: none;
+    }
+    .text{
+        font-size: 20px;
+        line-height: 2;
+        color: #FFF;
+        margin-top: 5%;
+        margin-left: 12%;
+        margin-right: 2%;
+        letter-spacing: 0.7px;
+    
+        margin-right: 10%;
+    }
+}
