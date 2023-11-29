@@ -75,7 +75,7 @@ font-weight: 700;
 line-height: 28px; /* 80% */
 }
 .address{
-    width: 25%;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
