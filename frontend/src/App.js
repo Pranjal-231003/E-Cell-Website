@@ -8,6 +8,7 @@ import Preloader from './components/preloader/Preloader.jsx'; // Import the Prel
 import Gallery from './components/Gallery.jsx';
 import Contact from './components/Contact/Contact.jsx';
 import Event from './components/Events.jsx'
+import Team from './components/Team/Team.jsx'
 import Footer from './components/Footer/Footer.jsx';
 function App() {
   const [loader, setLoader] = useState(true); // Set loader to true initially
@@ -36,8 +37,8 @@ function App() {
           <Gallery></Gallery>
           <Contact />
           <ESummit />
-          <Team/>
           <Footer></Footer>
+          <Team/>
         </>
       )}
     </>

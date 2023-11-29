@@ -2,8 +2,8 @@ import React from 'react'
 import './AboutUs.css';
 import ecell from'./pngwing 2.png';
 import gradiant from '../assets/AboutUs/Ellipse 1.png';
-import rect3 from '../assets/AboutUs/Ellipse 2.png';
-import rect4 from '../assets/AboutUs/Ellipse 3.png';
+import rect3 from '../assets/AboutUs/Rectangle 3.png';
+import rect4 from '../assets/AboutUs/Rectangle 4.png';
 import rectdown from '../assets/AboutUs/Rectangle 5.png';
 import ellipse2 from '../assets/AboutUs/Ellipse 2.png';
 import line2 from '../assets/AboutUs/Group 2.png';
