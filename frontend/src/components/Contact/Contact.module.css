@@ -139,16 +139,17 @@
         font-size: 4rem;
     }
     .inputContainer2{
-        flex-wrap: wrap;
         width: 100%;
         padding-bottom: 2rem;
     }
     .box{
         margin-top: 2rem;
+        width: 55%;
     }
     .name{
-        flex-wrap: wrap;
+        justify-content: space-between;
         margin-bottom: 0;
+        gap: 2rem;
     }
     .first{
         width: 98%;
@@ -168,23 +169,22 @@
     .touch{
         font-size: 3rem;
     }
-    .inputContainer2{
-        flex-wrap: wrap;
-    }
     .box{
         margin-top: 2rem;
-        width: 45%;
+        width: 80%;
+        margin-left: 4rem;
     }
     .name{
-        flex-wrap: wrap;
+        justify-content: space-between;
         margin-bottom: 0;
+        gap: 1.5rem;
     }
     .inputContainer2{
         width: 100%;
         padding-bottom: 2rem;
     }
     .first{
-        width: 98%;
+        width: 90%;
     }
     .insta{
         height: 1.6rem;
@@ -209,21 +209,20 @@
         font-size: 2.5rem;
     }
     .inputContainer2{
-        flex-wrap: wrap;
         width: 100%;
         padding-bottom: 2rem;
     }
     .box{
         margin-top: 1.8rem;
         margin-left: 2rem;
-        width: 55%;
+        width: 80%;
     }
     .name{
-        flex-wrap: wrap;
+        justify-content: space-between;
         margin-bottom: 0;
     }
     .first{
-        width: 98%;
+        width: 88%;
     }
     .insta{
         height: 1.3rem;
