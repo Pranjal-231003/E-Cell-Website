@@ -21,7 +21,7 @@ function Gallery() {
     //       : 'translate3d(0px, 0px, 0px) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
     //   };
   return (
-    <div className="gallery_contain">
+    <div className="gallery_contain" id='gallery'>
         <div className="grid_parent">
             <div className="grid">
                 <div className="grid_height"></div>

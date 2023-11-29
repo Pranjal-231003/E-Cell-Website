@@ -40,7 +40,7 @@ function Events() {
   }, []);
 
   return (
-    <div>
+    <div id='events'>
       <div className="container2">
         <h2 style={{ fontSize: '400%', fontWeight: 'normal' }}>WHAT WE PROVIDE</h2>
         <div id="slide">
