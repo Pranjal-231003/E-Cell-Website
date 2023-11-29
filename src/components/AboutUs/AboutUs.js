@@ -23,6 +23,7 @@ const AboutUs = () => {
         <img className='rectdown' src={rectdown} alt='rectdown'></img>
         <img className='ell2' src={ellipse2} alt='ell2'></img>
         <img className='line2' src={line2} alt='line2'></img>
+       
 
         </div>
         
@@ -33,6 +34,7 @@ const AboutUs = () => {
         <div className='container'>
             <div className='img'>
                 <img className='image'  src={ecell} alt="ecell" />
+                
             </div>
             <div className='text'>
                 <p>LNMIIT's Entrepreneurship Cell (E-cell) is a dynamic hub dedicated to fostering innovation and the entrepreneurial spirit among our students. Our mission is to provide a comprehensive platform for ideation, mentorship, and networking, equipping aspiring entrepreneurs for success.<br></br>

@@ -36,6 +36,7 @@
   background-color: transparent; /* Set the color of the corner between the vertical and horizontal scrollbars */
 }
 
+
 .Ecell_container{
   display: flex;
   flex-direction: column;

@@ -4,9 +4,10 @@
 }
 
 .AboutUs{
-    /* margin-top: 50px; */
+    margin-top: 50px;
+    height: 100vh;
     
-        height: 85vh;
+       
     
 }
 .images{
@@ -24,6 +25,7 @@
   width: 80%;
   margin-left: 10%;
 }
+
 
 .rect3{
     position: absolute;
@@ -125,7 +127,7 @@
     flex: 1;
     
     margin-right: 13%;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 2;
     color: #FFF;
     font-family: Ecell;
@@ -136,7 +138,7 @@
 @media screen and (max-width: 520px){
 
     .AboutUs{
-        height: 80vh;
+        height: 100vh;
     }
   
 
@@ -192,7 +194,7 @@
           margin-left: 18%;
       }
     .heading{
-        margin-top: 17%;
+        margin-top: 13%;
         font-size: 40px;
         margin-left: 2%;
         margin-right: 2%;
@@ -209,10 +211,10 @@
        display: none;
     }
     .text{
-        font-size: 15px;
+        font-size: 12px;
         line-height: 2;
         color: #FFF;
-        margin-top: 10%;
+        margin-top: 12%;
         margin-left: 12%;
         letter-spacing: 0.5px;
     

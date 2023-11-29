@@ -10,14 +10,14 @@ const teamMembers = [
   { id: 1, name: 'Varun Ashok', title: 'Coordinator', photo: Varun },
   { id: 1, name: 'Yash Gautam', title: 'Coordinator', photo: Yash },
   { id: 1, name: 'Harsh Bansal', title: 'Coordinator', photo: Bansal },
-  { id: 2, name: 'D', title: 'Web Developer', photo: img1 },
-  { id: 3, name: 'E', title: 'Web Developer', photo: img1 },
-  { id: 4, name: 'F', title: 'Web Developer', photo: img1 },
-  { id: 5, name: 'G', title: 'Web Developer', photo: img1 },
-  { id: 6, name: 'H', title: 'Web Developer', photo: img1 },
-  { id: 7, name: 'I', title: 'Web Developer', photo: img1 },
-  { id: 8, name: 'J', title: 'Web Developer', photo: img1 },
-  { id: 9, name: 'K', title: 'Web Developer', photo: img1 },
+  { id: 2, name: 'Kumar Harsh', title: 'Web Developer', photo: Varun },
+  { id: 3, name: 'Aditya Kumar', title: 'Web Developer', photo: Varun },
+  { id: 4, name: 'Shourya Gupta', title: 'UI/UX Designer', photo: Varun },
+  { id: 5, name: 'Jay Aggarwal', title: 'Web Developer', photo: Varun },
+  { id: 6, name: 'Ayush Bansal', title: 'Web Developer', photo: Varun },
+  { id: 7, name: 'Mitali Manya', title: 'Web Developer', photo: Varun },
+  { id: 8, name: 'J', title: 'Web Developer', photo: Varun },
+  { id: 9, name: 'K', title: 'Web Developer', photo: Varun },
 
 
 ];
