@@ -29,7 +29,8 @@ function Footer() {
            </div>
         </div>
         <div className="address">
-
+            <p>The LNM Institute of Information Technology Jaipur ,Rajasthan (302031)</p>
+        
         </div>
     </div>
     <div className="line"></div>

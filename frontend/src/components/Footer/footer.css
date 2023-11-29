@@ -76,6 +76,19 @@ line-height: 28px; /* 80% */
 }
 .address{
     width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.address p{
+    width: 221px;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.70);
+font-family: Mabry Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
 }
 .eclipse_de{
     display: flex;
