@@ -12,7 +12,7 @@ import line2 from '../assets/AboutUs/Group 2.png';
 const AboutUs = () => {
   return (
     <>
-      <div className='AboutUs'>
+      <div className='AboutUs' id='about'>
        
         <div className='images'>
         <img className='gradiant' src={gradiant} alt='gradiant'></img>
