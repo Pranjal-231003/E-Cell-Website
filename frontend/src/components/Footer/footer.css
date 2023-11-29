@@ -7,6 +7,7 @@
     background-color: #013D56;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 .line{
     width: 1350px;
@@ -47,10 +48,48 @@ line-height: 28px; /* 140% */
 margin: 5px;
 }
 .logo_footer{
-    width: 35%;
+    width: 30%;
+   align-items: center;
+   justify-content: center;
+    display: flex;
+   flex-direction: column; 
+}
+.logo_footer div{
+  
+    display: flex;
+}
+.logo_footer img{
+    border-right: 2px solid rgb(250, 250, 250);
+
+    
+}
+.logo_footer h1{
+
+    margin-left: 20px;
+ 
+    color: #FFF;
+font-family: Montserrat;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 80% */
 }
 .address{
     width: 25%;
+}
+.eclipse_de{
+    display: flex;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.eclipse_de div{
+    width: 36px;
+height: 36px;
+flex-shrink: 0;
+background-color:#D9D9D9;
+margin-left: 18px;
+margin-right: 18px;
+border-radius: 100px;
 }
 @media (max-width:400px) {
     .group314{display: none;}

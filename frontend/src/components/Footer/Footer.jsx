@@ -1,5 +1,6 @@
 import React from 'react'
 import "./footer.css"
+import logo from  "../assets/image/logo.svg"
 function Footer() {
   return (
    <>
@@ -17,7 +18,15 @@ function Footer() {
 
         </div>
         <div className="logo_footer">
-
+            <div>
+                <img src={logo} alt="ecell" srcset="" />
+                <h1>ECELL</h1>
+            </div>
+            <div className="eclipse_de">
+                <div className="eclipse"></div>
+                <div className="eclipse"></div>
+                <div className="eclipse"></div>
+           </div>
         </div>
         <div className="address">
 
