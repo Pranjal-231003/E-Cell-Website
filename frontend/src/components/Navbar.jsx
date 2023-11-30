@@ -49,6 +49,9 @@ const Navbar = () => {
           <ScrollLink to="contact" smooth={true} duration={800} onClick={() => scrollToSection("contact")}>
             Contact Us
           </ScrollLink>
+          <ScrollLink to="team-container" smooth={true} duration={800} onClick={() => scrollToSection("team-container")}>
+            Team
+          </ScrollLink>
         </div>
         <div className={`nav-icon`} onClick={handleNavClick}>
           {isNavOpen ? <FaTimes /> : <FaBars />}

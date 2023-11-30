@@ -7,14 +7,14 @@ import Bansal from '../assets/Team/WhatsApp Image 2023-11-28 at 10.17.33 PM.jpeg
 import Shourya from '../assets/Team/IMG_5265.jpg';
 import Harsh from '../assets/Team/IMG-20230822-WA0103.jpg';
 import Jay from '../assets/Team/1701188174968.jpg';
-import Pranjal from '../assets/Team/picofme.jpg'
+// import Pranjal from '../assets/Team/picofme.jpg'
 import Mitali from '../assets/Team/IMG-20230909-WA0082~2.jpg';
 
 const teamMembers = [
   { id: 1, name: 'Varun Ashok', title: 'Coordinator', photo: Varun },
   { id: 1, name: 'Yash Gautam', title: 'Coordinator', photo: Yash },
   { id: 1, name: 'Harsh Bansal', title: 'Coordinator', photo: Bansal },
-  { id: 2, name: 'Pranjal Jain', title: 'Web Developer', photo: Pranjal },
+  // { id: 2, name: 'Pranjal Jain', title: 'Web Developer', photo: Pranjal },   
   { id: 3, name: 'Kumar Harsh', title: 'Web Developer', photo: Harsh },
   { id: 4, name: 'Shourya Gupta', title: 'UI/UX Designer', photo: Shourya },
   { id: 5, name: 'Hugesh Kumar', title: 'Web Developer', photo: Varun },

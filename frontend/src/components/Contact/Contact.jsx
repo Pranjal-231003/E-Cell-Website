@@ -2,9 +2,9 @@ import React from 'react';
 import ContactCss from './Contact.module.css';
 import { BsFillPersonFill } from "react-icons/bs";
 import { BiLogoGmail } from "react-icons/bi";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
+// import { FaXTwitter } from "react-icons/fa6";
+// import { FaInstagram } from "react-icons/fa";
+// import { FaLinkedinIn } from "react-icons/fa";
 
 // import firebase from 'firebase/app';
 // import 'firebase/auth';
@@ -28,11 +28,11 @@ const Contact = () => {
             <button type="submit" className={ContactCss.submit}>Submit</button>
           {/* <button onClick={signInWithGoogle}>Sign In with Google</button> */}
           
-          <div className={ContactCss.social}>
+          {/* <div className={ContactCss.social}>
             <a href={"https://www.instagram.com/ecell.lnmiit"} target="_blank" rel="noopener noreferrer"><FaInstagram className={ContactCss.insta}/></a>
             <a href={"https://twitter.com/ecell_lnmiit"} target="_blank" rel="noopener noreferrer"><FaXTwitter className={ContactCss.insta}/></a>
             <a href={"https://www.linkedin.com/company/entrepreneurship-cell-the-lnmiit/"} target="_blank" rel="noopener noreferrer"><FaLinkedinIn className={ContactCss.insta}/></a>
-          </div>
+          </div> */}
         </div>
     </div>
   )

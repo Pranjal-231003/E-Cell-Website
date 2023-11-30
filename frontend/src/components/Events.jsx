@@ -65,7 +65,7 @@ function Events() {
           <div className="item-s" style={{ backgroundImage: 'url(assets/images/3pg/Video\ Editor.png)' }}>
             <div className="content">
               <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '525%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}>SELL WITH ECELL</div>
-              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Sell with Ecell -An exceptional opportunity to showcase your selling expertise and captivate customers. Exercise autonomy by establishing your personalized stalls, enabling you to market your products and services according to your preferences and strategic planning, ensuring a dynamic and impactful presentation..</div>
+              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Sell with Ecell -An exceptional opportunity to showcase your selling expertise and captivate customers enabling you to market your products and services according to your preferences and strategic planning.</div>
             </div>
           </div>
           <div className="item-s" style={{ backgroundImage: 'url(assets/images/3pg/Video\ Editor.png)' }}>
@@ -77,7 +77,7 @@ function Events() {
           <div className="item-s" style={{ backgroundImage: 'url(assets/images/3pg/Video\ Editor.png)' }}>
             <div className="content">
               <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '525%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}>DEMYSTIFY</div>
-              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Demystify represents a case study competition that revolves around the meticulous examination of a chosen unicorn company by participating teams. In this endeavor, teams delve deep into various facets of the selected company, including but not limited to its overarching vision, the founder, their revenue-generating methodologies, and the intricate intricacies of their market strategies.</div>
+              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Demystify represents a case study competition that revolves around the meticulous examination of a chosen unicorn company by participating teams. In this endeavor, teams delve deep into various facets of the selected company, including the founder, their revenue-generating methodologies, and the intricate intricacies of their market strategies.</div>
             </div>
           </div>
           <div className="item-s" style={{ backgroundImage: 'url(assets/images/3pg/Video\ Editor.png)' }}>

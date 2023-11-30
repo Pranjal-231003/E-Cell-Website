@@ -79,7 +79,9 @@
   justify-content: center;
   height: 100%;
   text-align: center;
-
+}
+.nav-links a:hover{
+  cursor: pointer;
 }
 
 .nav-links a {

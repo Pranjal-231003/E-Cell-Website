@@ -4,7 +4,7 @@ import './Gallery.css'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import man_with_tv from '../assets/image/ecellgallery 1.png';
-import img1 from '../assets/image/img (1).jpg';
+import img1 from '../assets/image/imge (1).jpg';
 import img2 from '../assets/image/imge (2).jpg';
 import img3 from '../assets/image/imge (3).jpg';
 import img4 from '../assets/image/imge (4).jpg';
