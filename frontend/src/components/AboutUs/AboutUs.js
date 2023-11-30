@@ -7,12 +7,15 @@ import rect4 from '../assets/AboutUs/Rectangle 4.png';
 import rectdown from '../assets/AboutUs/Rectangle 5.png';
 import ellipse2 from '../assets/AboutUs/Ellipse 2.png';
 import line2 from '../assets/AboutUs/Group 2.png';
+import ellipse3 from '../assets/AboutUs/Ellipse 3.png';
+import logo from '../assets/AboutUs/Dark bg dark effect  1.png';
+
 
 
 const AboutUs = () => {
   return (
     <>
-      <div className='AboutUs' id='about'>
+      <div className='AboutUs'>
        
         <div className='images'>
         <img className='gradiant' src={gradiant} alt='gradiant'></img>
@@ -22,6 +25,9 @@ const AboutUs = () => {
         <img className='rectdown' src={rectdown} alt='rectdown'></img>
         <img className='ell2' src={ellipse2} alt='ell2'></img>
         <img className='line2' src={line2} alt='line2'></img>
+        <img className='ellipse3' src={ellipse3} alt='ellipse3'></img>
+      
+        
        
 
         </div>
@@ -33,10 +39,12 @@ const AboutUs = () => {
         <div className='container'>
             <div className='img'>
                 <img className='image'  src={ecell} alt="ecell" />
+                <img className='aboutUs-logo' src={logo} alt='logo'></img>
                 
             </div>
             <div className='text'>
                 <p>LNMIIT's Entrepreneurship Cell (E-cell) is a dynamic hub dedicated to fostering innovation and the entrepreneurial spirit among our students. Our mission is to provide a comprehensive platform for ideation, mentorship, and networking, equipping aspiring entrepreneurs for success.<br></br>
+                <br></br>
 E-cell, serving as a catalyst for transforming ideas into impactful ventures, empowers students where innovation flourishes, and meaningful connections are forged. Through our multifaceted approach, we aim not only to support entrepreneurial endeavors but also to shape the future entrepreneurship landscape at LNMIIT—A community where ideas thrive and the entrepreneurial journey unfolds.
                 </p>
             </div>
