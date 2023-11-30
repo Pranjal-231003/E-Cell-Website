@@ -10,10 +10,16 @@ import img3 from '../assets/image/imge (3).jpg';
 import img4 from '../assets/image/imge (4).jpg';
 import img5 from '../assets/image/imge (5).jpg';
 import img6 from '../assets/image/imge (6).jpg';
+import img7 from '../assets/image/imge (7).jpg';
+import img8 from '../assets/image/imge (8).jpg';
+import img9 from '../assets/image/imge (9).jpg';
+import img10 from '../assets/image/imge (10).jpg';
+import img11 from '../assets/image/imge (11).jpg';
+
 
 const Gallery = () => {
   // Array of images to be displayed in the carousel
-  const images = [img1, img2, img3, img4, img5, img6];
+  const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11];
 
   // State to track the currently selected image
   const [selectedImage, setSelectedImage] = useState(images[0]);
