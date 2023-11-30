@@ -5,7 +5,7 @@ import ESummit from './components/ESummit/ESummit.js';
 import Landingpage from './components/Landingpage';
 import Navbar from './components/Navbar';
 import Preloader from './components/preloader/Preloader.jsx'; // Import the Preloader component
-import Gallery from './components/Gallery.jsx';
+import Gallery from './components/gallery/Gallery.jsx';
 import Contact from './components/Contact/Contact.jsx';
 import Event from './components/Events.jsx'
 import Team from './components/Team/Team.jsx'
