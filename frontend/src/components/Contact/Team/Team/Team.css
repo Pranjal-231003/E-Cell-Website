@@ -1,0 +1,375 @@
+@font-face {
+  font-family: Ecell;
+  src: url(../assets/AboutUs/Montserrat-VariableFont_wght.ttf);
+}
+
+
+
+.team-container {
+    display: flex;
+    font-family: Ecell;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .team-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0% 10%;
+    width: 100%;
+  }
+  
+  .team-card {
+    position: relative;
+    /* border: 1px solid #ddd; */
+    border-radius: 2px;
+    margin: 1px 40px;
+    /* padding: 10px; */
+    /* height: 100%; */
+    font-family: Ecell;
+    text-align: left;
+    width: 200px;
+    transition: transform 0.3s ease-in-out; 
+
+  }
+
+  .team-icons{
+    opacity: 0;
+  }
+
+  .team-icons .gmail{
+    /* height: 200px; */
+    position: absolute;
+    top: 37%;
+    left: 25%;
+    background-color: rgba(0, 0, 0, 0.541);
+    /* transform: translate(50%,50%); */
+    color: white;
+   
+    padding: 7px 10px 4px 10px;
+    border-radius: 7px;
+  }
+  .team-icons .linkedin{
+    /* height: 200px; */
+    position: absolute;
+    top: 37%;
+    right: 25%;
+    padding: 7px 10px 4px 10px;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.541);
+    color: white;
+  }
+  .team-card:hover .team-icons {
+    opacity: 1; 
+    
+  }
+  
+  /* .team-card .team-icons:hover{
+    display: block;
+  }
+   */
+  .team-photo {
+    height: 50%;
+    border-radius: 30px;
+   
+    max-height: 265px;
+   width: 100%;
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  .team-card:hover .team-photo {
+    filter: grayscale(100%) blur(1.5px);
+  
+  }
+  
+  .team-info {
+    margin-top: 40px;
+  }
+  
+  .team-name {
+    color: white;
+    font-size: 28px;
+    margin: -10px 20px -8px 20px ;
+    transition: color 0.3s ease-in-out; 
+  }
+  
+  .team-card:hover .team-name {
+    color: rgb(0, 247, 255); 
+  }
+  
+  .team-title {
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: #b5a5a5;
+    transition: color 0.3s ease-in-out; 
+  }
+  
+  .team-card:hover .team-title {
+    color: pink;
+  }
+
+
+.our-team {
+  
+  display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0% 10%;
+    margin-bottom: 3%;
+    width: 100%;
+ 
+}
+
+.team-details1{
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0% 10%;
+    width: 60%;
+}
+
+.team-details1 .team-info{
+  width: 50%;
+}
+/* .team-details1 .team-card{
+  height: 50%;
+} */
+.team-details2{
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+.team-details2 .team-card{
+  margin: 0 5%;
+}
+
+
+  .team-details {
+  
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row; 
+        margin: 10px 8%;
+        margin-top: 3%;
+        flex-wrap: wrap;
+      
+  }
+  .text-team{
+    color: #01FFF0;
+    align-items: center;
+  }
+  .our-team h1{
+    margin-bottom: 20%;
+  }
+
+  
+  .team-row h1 ,
+  .team-container h1,
+  .our-team h1  {
+    margin-bottom: 3%;
+    font-size: 60px;
+    color: white;
+  }
+
+
+  @media screen and (max-width: 480px){
+   
+    .team-row h1 ,
+    .team-container h1,
+    .our-team h1  {
+      text-align: center;
+      font-size: 27px;
+    }
+    .our-team h1{
+      margin: 12% 0;
+    }
+    .team-card {
+    
+      width: 38%; 
+      /* height: 50%; */
+      margin-top: 10px;
+      margin: 10px 20px;
+      
+    }
+    .team-details1 .team-card{
+      width: 60%;
+      height: 80%;
+    }
+  
+ 
+    .team-row{
+      justify-content:space-around;
+      margin: 7% -2%;
+     
+    }
+    .team-icons .gmail{
+      font-size: 0.7em;
+      top: 28%;
+      padding: 5px 7px;
+      border-radius: 5px;
+      left: 20%;
+    }
+    .team-icons .linkedin{
+      /* height: 200px; */
+  
+      font-size: 0.7em;
+      top: 28%;
+      right: 20%;
+      border-radius: 5px;
+      padding: 5px 7px;
+      /* transform: translate(50%,50%); */
+      color: white;
+    }
+    .team-card:hover .team-icons {
+      opacity: 1; 
+    }
+    .team-photo{
+
+      height: 50%;
+      max-height: 125px;
+    }
+    .team-details{
+      justify-content: space-around;
+      margin: 0;
+    
+    }
+    .team-details1{
+      justify-content: center;
+      margin: 0;
+    }
+    .team-details2{
+      justify-content: space-around;
+      margin: 0;
+    }
+    .team-info {
+      margin: 2px 0px;
+    }
+    .team-title{
+      margin-left: 12px;
+    }
+    
+    .team-name {
+      margin: 15px;
+      margin-top: 20px;
+      font-size: 18px;
+      
+    }
+  }
+
+  @media screen and (max-width: 780px) and ( min-width: 480px){
+
+    .team-row h1 ,
+    .team-container h1,
+    .our-team h1  {
+      text-align: center;
+      font-size: 35px;
+    }
+    .our-team h1{
+      margin: 8% 0;
+    }
+    .team-card {
+    
+      width: 30%; 
+      /* height: 48%; */
+
+      margin: 0px -20px 0 -20px;
+      
+    }
+    .team-info {
+      margin: 5px 10px;
+      width: 60%;
+    }
+    .team-photo{
+      max-height: 200px;
+    }
+    .team-name {
+      margin-left: 15px;
+      margin-top: 20px;
+      font-size: 28px;
+      
+    }
+    .team-title{
+      margin-left:15px;
+      text-align: left;
+      
+    }
+    .team-details{
+      justify-content: center;
+    }
+    .team-details1{
+      justify-content: center;
+      margin: 0;
+    }
+    /* .team-details1 .team-name{
+      width: 100%;
+    } */
+    .team-details2{
+      justify-content: center;
+      margin: 0 8%;
+    }
+    .team-row{
+      justify-content:space-around;
+      margin: 3% 4%;
+      flex-wrap: nowrap;
+     
+    }
+  }
+
+  @media screen and (min-width: 780px) and ( max-width: 1080px){
+
+    .team-row h1 ,
+    .team-container h1,
+    .our-team h1  {
+      text-align: center;
+      font-size: 35px;
+    }
+    .our-team h1{
+      margin: 8% 0;
+    }
+    .team-card {
+    
+      width: 30%; 
+      /* height: 48%; */
+      margin: 0 -20px 0 -10px;
+      
+    }
+    .team-info {
+      margin: 5px 10px;
+      width: 60%;
+    }
+    .team-photo{
+      max-height: 200px;
+    }
+    .team-name {
+      margin-left: 15px;
+      margin-top: 20px;
+      font-size: 28px;
+      
+    }
+    .team-title{
+      margin-left:15px;
+      text-align: left;
+      
+    }
+    .team-details{
+      justify-content: center;
+    }
+    .team-details1{
+      justify-content: center;
+      margin: 0;
+    }
+    .team-details2{
+      justify-content: center;
+      margin: 0 8%;
+    }
+    .team-row{
+      justify-content:space-around;
+      margin: 3% 4%;
+      flex-wrap: nowrap;
+     
+    }
+  }

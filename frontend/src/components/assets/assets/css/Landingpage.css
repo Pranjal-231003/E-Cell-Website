@@ -1,0 +1,270 @@
+/* For WebKit Browsers (Chrome, Safari) */
+/* You may also want to include the equivalent styles for Firefox, Edge, and other browsers */
+
+/* Track */
+::-webkit-scrollbar {
+  width: 5px; /* Set the width of the scrollbar */
+}
+
+/* Handle/Thumb */
+::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #333; /* Set a different color on hover if desired */
+}
+
+/* Track on hover */
+::-webkit-scrollbar-track:hover {
+  background-color: transparent; /* Set a different color for the track on hover if desired */
+}
+
+/* Handle on active */
+::-webkit-scrollbar-thumb:active {
+  background-color: #555; /* Set a different color when the scroller is clicked */
+}
+
+/* Track on active */
+::-webkit-scrollbar-track:active {
+  background-color: transparent; /* Set a different color for the track when the scroller is clicked */
+}
+
+/* Corner */
+::-webkit-scrollbar-corner {
+  background-color: transparent; /* Set the color of the corner between the vertical and horizontal scrollbars */
+}
+
+
+.Ecell_container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+
+  background-color: black;
+  z-index: 0;
+  overflow:hidden;
+  text-align: center;
+}
+
+.club_name{
+  
+  font-size: 7rem;
+  overflow: hidden;
+  text-align: center;
+
+  position: relative;
+  background: linear-gradient(90deg, #01FFF0 6.15%, #FFF 50.08%, #4EFFF4 95.89%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+
+  top: 15rem;
+  z-index:2rem ;
+}
+.Ecell_container img{
+  
+  position: relative;
+  top: -43rem;
+  left:-9.5rem;
+  z-index: 10;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+width: 120%;
+
+
+
+}
+.stroke{
+ position: relative;
+  font-size: 7rem;
+  
+color: transparent;
+ left: 0rem;
+ top: 1.1rem;
+ -webkit-text-stroke:1.8px #01FFF0;
+
+  z-index: 99; 
+}
+.cell{
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+  position:relative;
+ top: -10rem;
+  font-size: 7rem;
+  text-align: center;
+  color: transparent;
+  z-index: 99;
+}
+@media (max-width:1540px) {
+ .Ecell_container img{
+  height: 95%;
+ }
+}
+@media (max-width:1140px) {
+  .cell{
+    font-size: 6rem;
+    top: -2rem;
+  }
+  .stroke{
+    font-size: 6rem;
+    top: 7rem;
+  }
+  .club_name{
+    font-size: 6rem;
+    top: 19rem;
+  }
+  .Ecell_container img{
+    top: -32rem;
+    width: 130%;
+  }
+}
+@media (max-width:970px) {
+  .cell{
+    font-size: 5rem;
+    top: 5rem;
+  }
+  .stroke{
+    font-size: 5rem;
+    top: 12rem;
+  }
+  .club_name{
+    font-size: 5rem;
+    top: 22rem;
+
+  }
+  .Ecell_container img{
+    top: -19rem;
+    /* left: -11rem; */
+    width: 140%;
+    transform: translate(-3%);
+  }
+
+}
+@media (max-width:790px) {
+  .cell{
+    font-size: 4rem;
+    top: 8rem;
+  }
+  .stroke{
+    font-size: 4rem;
+    top: 11.99rem;
+  }
+  .club_name{
+    font-size: 4rem;
+    top: 20rem;
+  }
+  .Ecell_container img{
+    top: -15.5rem;
+    left: -17rem;
+    width: 180%;
+  }
+}
+@media (max-width:690px) {
+  .cell{
+    font-size: 3.6rem;
+    top: -8rem;
+  }
+  .stroke{
+    font-size: 3.6rem;
+    top: -2.2rem;
+  }
+  .club_name{
+    font-size: 3.6rem;
+  }
+  .Ecell_container img{
+    top: -24rem;
+    left: -42rem;
+    height: 90%;
+    width: 200%;
+  }
+  .Ecell_container{
+    height: 45vh;
+  }
+}
+@media (max-width:690px) {
+  .cell{
+    font-size: 3.2rem;
+    top: -6rem;
+  }
+  .stroke{
+    font-size: 3.2rem;
+    top: -0.4rem;
+  }
+  .club_name{
+    font-size: 3.2rem;
+    top: 6rem;
+  }
+  .Ecell_container img{
+    top: -20rem;
+    height: 90%;
+    left: -5rem;
+    width: 130%;
+  }
+
+}
+@media (max-width:530px) {
+  .cell{
+    font-size: 2.6rem;
+    top: 1rem;
+  }
+  .stroke{
+    font-size: 2.6rem;
+    top: 4.8rem;
+  }
+  .club_name{
+    font-size: 2.6rem;
+    top: 10rem;
+  }
+  .Ecell_container img{
+    top: -14rem;
+    left: -3.5rem;
+    width: 130%;
+  }
+
+}
+@media (max-width:420px) {
+  .cell{
+    font-size: 2.2rem;
+    top: 5rem;
+  }
+  .stroke{
+    font-size: 2.2rem;
+    top: 7.59rem;
+  }
+  .club_name{
+    font-size: 2.2rem;
+    top: 12rem;
+  }
+  .Ecell_container img{
+    top: -7rem;
+    left: -5rem;
+    width: 150%;
+  }
+
+  .Ecell_container {
+    animation: moveUp 2s;
+  }
+}
+
+.Ecell_container img {
+  animation: moveUp 2s;
+}
+
+.stroke{
+  text-align: center;
+
+}
+
+@keyframes moveUp {
+  from {
+    transform: translateY(20%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}

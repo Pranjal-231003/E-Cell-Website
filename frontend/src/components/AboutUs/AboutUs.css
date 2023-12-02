@@ -4,10 +4,8 @@
 }
 
 .AboutUs{
-    margin-top: 50px;
+    margin-top: 40px;
     height: 100vh;
-    
-       
     
 }
 .images{
@@ -15,6 +13,9 @@
 
 }
 
+.eveh {
+    font-family: Ecell;
+}
 
 .gradiant{
   position: absolute;
@@ -24,6 +25,21 @@
   /* height: 100%; */
   width: 80%;
   margin-left: 10%;
+}
+
+.ellipse3{
+    position: absolute;
+    top: 0;
+    margin-top: 14%;
+    margin-left: 12%;
+    transform: rotate(-90deg);
+    z-index: -1;
+    height: 40vh;
+    border-radius: 348px;
+    background: linear-gradient(270deg, rgba(1, 255, 240, 0.60) -4.31%, rgba(5, 0, 255, 0.60) 50%);
+
+filter: blur(150px);
+
 }
 
 
@@ -113,16 +129,43 @@
     
 }
 .image{
-    width: 50%;
-    height: 50%;
+    /* width: 50%;
+    height: 50%; */
+    /* box-shadow: 40px 10px 90px 0px rgba(255, 255, 255, 0.25); */
+    animation: floating 3.5s infinite ease-in-out;
 
+}
+.aboutUs-logo{
+
+    position: absolute;
+    
+    z-index: 100;
+    left: 8%;
+    /* top: 50%;
+  transform: translate(-50%,-50%); */
+    /* top: 0; */
+    margin-top: 5%;
+    /* height: 25vh; */
+    
+    animation: floating 3.5s infinite ease-in-out;
+    mix-blend-mode: color-dodge;
 }
 
 .img{
+    position: relative;
+    justify-content: center;
+    align-items: center;
     margin-left: 15%;
     flex: 1;
     /* margin-top: -15%; */
 }
+@keyframes floating {
+    0% { transform: translate(0,  0px) scale(1);
+    }
+    50%  { transform: translate(0, 15px) scale(0.97); }
+    100%   { transform: translate(0, -0px) scale(1);}   
+}
+
 .text{
     flex: 1;
     
@@ -140,7 +183,9 @@
     .AboutUs{
         height: 100vh;
     }
-  
+    .ellipse3{
+        display: none;
+    }
 
     .gradiant{
         display: none;
@@ -230,7 +275,12 @@
     .gradiant{
         display: none;
       }
-      
+      .ellipse3{
+        display: none;
+    }
+    .AboutUs{
+        height: 90vh;
+    }
       .rect3{
         margin-top: -6%;
           margin-right: 10%;
@@ -281,7 +331,7 @@
       }
     .heading{
         margin-top: 18%;
-        font-size: 43px;
+        font-size: 45px;
         margin-left: 2%;
         margin-right: 2%;
 
@@ -293,7 +343,7 @@
        display: none;
     }
     .text{
-        font-size: 18px;
+        font-size: 21px;
         line-height: 2;
         color: #FFF;
         margin-top: 8%;
@@ -308,6 +358,12 @@
     .gradiant{
         display: none;
       }
+      .ellipse3{
+        display: none;
+    }
+    .AboutUs{
+        height: 100vh;
+    }
       
       .rect3{
         margin-top: -4%;
@@ -370,7 +426,7 @@
        display: none;
     }
     .text{
-        font-size: 20px;
+        font-size: 22px;
         line-height: 2;
         color: #FFF;
         margin-top: 5%;

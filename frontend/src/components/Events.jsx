@@ -1,5 +1,13 @@
 import React, { useEffect } from 'react';
 import './App1.css';
+import st from './assets/image/stank.jpeg';
+import yp from './assets/image/yp.jpeg';
+import dm from './assets/image/dm.png';
+import sw from './assets/image/2.png';
+import ig from './assets/image/Untitled.png';
+import swe from './assets/image/swe.jpeg';
+import di from './assets/image/di.jpeg';
+import './AboutUs/AboutUs.css'
 
 function Events() {
   useEffect(() => {
@@ -42,45 +50,45 @@ function Events() {
   return (
     <div id='events'>
       <div className="container2">
-        <h2 style={{ fontSize: '400%', fontWeight: 'normal' }}>WHAT WE PROVIDE</h2>
+        <h2 className='eveh' style={{ fontSize: '400%', fontWeight: 'normal' }}>WHAT WE PROVIDE</h2>
         <div id="slide">
-          <div className="item-s" style={{ backgroundImage: 'url(assets/images/3pg/Content\ Management.png)' }}>
+          <div className="item-s" style={{ backgroundImage: `url(${di})`}}>
             <div className="content">
               <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '475%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}>DISRUPT</div>
-              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Disrupt is a platform where the institute's budding entrepreneurs can pitch their startups to a panel of industry experts and potential investors. This platform offers comprehensive feedback and support, with the aim of enhancing their development and securing funding.</div>
+              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Disrupt is a platform where the institute's budding entrepreneurs can pitch their startups to a panel of industry experts and potential investors.</div>
             </div>
           </div>
-          <div className="item-s" style={{ backgroundImage: 'url(assets/images/3pg/Ideation\ and\ Consulting.png)' }}>
+          <div className="item-s" style={{ backgroundImage: `url(${yp})` }}>
             <div className="content">
               <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '475%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}>YELLOW PAGES</div>
-              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Yellow Pages is a contest where participants build products or services within a limited time frame and demonstrate their financial and marketing strategies. They have to prove to the judges that their product can generate revenue and attract customers.</div>
+              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Yellow Pages is a contest where participants build products or services within a limited time frame and demonstrate their financial and marketing strategies.</div>
             </div>
           </div>
-          <div className="item-s" style={{ backgroundImage: 'url(assets/images/3pg/Influencer\ Marketing.png)' }}>
+          <div className="item-s" style={{ backgroundImage: `url(${st})` }}>
             <div className="content">
               <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '475%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}>SHARK TANK</div>
-              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Shark Tank provided aspiring entrepreneurs with a distinctive opportunity to present their innovative ideas and skills to investors and venture capitalists. In response to their promising pitches, they secured seed funding exceeding 25 lakhs, marking a pivotal moment in their entrepreneurial journey.</div>
+              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Shark Tank provided aspiring entrepreneurs with a distinctive opportunity to present their innovative ideas and skills to investors and venture capitalists. </div>
             </div>
           </div>
-          <div className="item-s" style={{ backgroundImage: 'url(assets/images/3pg/Video\ Editor.png)' }}>
+          <div className="item-s" style={{ backgroundImage: `url(${swe})` }}>
             <div className="content">
               <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '525%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}>SELL WITH ECELL</div>
-              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Sell with Ecell -An exceptional opportunity to showcase your selling expertise and captivate customers. Exercise autonomy by establishing your personalized stalls, enabling you to market your products and services according to your preferences and strategic planning, ensuring a dynamic and impactful presentation..</div>
+              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Sell with Ecell -An exceptional opportunity to showcase your selling expertise and captivate customers. </div>
             </div>
           </div>
-          <div className="item-s" style={{ backgroundImage: 'url(assets/images/3pg/Video\ Editor.png)' }}>
+          <div className="item-s" style={{ backgroundImage: `url(${ig})` }}>
             <div className="content">
               <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '525%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}>IGNITE</div>
-              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Ignite facilitates a dynamic platform wherein participants collaborate in real time to assemble groups and draw chits containing two words. Subsequently, participants construct a compelling pitch, which they then present before a discerning audience of angel investors(which are the members of E-CELL)</div>
+              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Ignite facilitates a dynamic platform wherein participants collaborate in real time to assemble groups and draw chits containing two words.</div>
             </div>
           </div>
-          <div className="item-s" style={{ backgroundImage: 'url(assets/images/3pg/Video\ Editor.png)' }}>
+          <div className="item-s" style={{ backgroundImage: `url(${dm})` }}>
             <div className="content">
               <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '525%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}>DEMYSTIFY</div>
               <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Demystify represents a case study competition that revolves around the meticulous examination of a chosen unicorn company by participating teams. In this endeavor, teams delve deep into various facets of the selected company, including but not limited to its overarching vision, the founder, their revenue-generating methodologies, and the intricate intricacies of their market strategies.</div>
             </div>
           </div>
-          <div className="item-s" style={{ backgroundImage: 'url(assets/images/3pg/Video\ Editor.png)' }}>
+          <div className="item-s" style={{ backgroundImage: `url(${sw})` }}>
             <div className="content">
               <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '525%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}>STARTUP WEEKEND</div>
               <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Startup Weekend, in collaboration with Google , unfolds over a 3-day duration.</div>

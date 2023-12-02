@@ -1,28 +1,36 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import AboutUs from'./components/AboutUs/AboutUs.js'
+import AboutUs from './components/AboutUs/AboutUs.js';
 import ESummit from './components/ESummit/ESummit.js';
 import Landingpage from './components/Landingpage';
 import Navbar from './components/Navbar';
-import Preloader from './components/preloader/Preloader.jsx'; // Import the Preloader component
-import Gallery from './components/Gallery.jsx';
+import Preloader from './components/preloader/Preloader.jsx';
+import Gallery from './components/gallery/Gallery.jsx';
 import Contact from './components/Contact/Contact.jsx';
-import Event from './components/Events.jsx'
-import Team from './components/Team/Team.jsx'
+import Event from './components/Events.jsx';
+import Team from './components/Team/Team.jsx';
 import Footer from './components/Footer/Footer.jsx';
+
 function App() {
-  const [loader, setLoader] = useState(true); // Set loader to true initially
-  const [mountainMoved, setMountainMoved] = useState(false); // Define mountainMoved state
+  const [loader, setLoader] = useState(true);
+  const [mountainMoved, setMountainMoved] = useState(false);
+  const [showESummit, setShowESummit] = useState(false);
+  const [hideOtherSections, setHideOtherSections] = useState(true);
+
 
   useEffect(() => {
-    // Simulating image and component loading delay
     const timeout = setTimeout(() => {
-      setLoader(false); // Set loader to false after the delay
-      setMountainMoved(true); // Set mountainMoved to true after the delay
+      setLoader(false);
+      setMountainMoved(true);
     }, 3000);
 
-    return () => clearTimeout(timeout); // Clear the timeout on component unmount
+    return () => clearTimeout(timeout);
   }, []);
+
+  const handleESummitClick = () => {
+    setShowESummit(true);
+    setHideOtherSections(false);
+  };
 
   return (
     <>
@@ -30,15 +38,19 @@ function App() {
         <Preloader />
       ) : (
         <>
-          <Navbar />
-          <Landingpage mountainMoved={mountainMoved} /> 
-          <AboutUs />
-          <Event/>
-          <Gallery></Gallery>
-          <Contact />
-          <ESummit />
-          <Footer></Footer>
-          <Team/>
+          <Navbar onESummitClick={handleESummitClick} />
+          
+            <>
+              {hideOtherSections && <Landingpage mountainMoved={mountainMoved} />}
+              {hideOtherSections && <AboutUs />}
+              {hideOtherSections && <Event />}
+              {hideOtherSections && <Gallery />}
+              {hideOtherSections && <Team />}
+              {hideOtherSections && <Contact />}
+              {hideOtherSections && <Footer />}
+            </>
+          
+          {showESummit && <ESummit />}
         </>
       )}
     </>
