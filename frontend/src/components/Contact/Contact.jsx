@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ContactCss from './Contact.module.css';
 import { BsFillPersonFill } from 'react-icons/bs';
 import { BiLogoGmail } from 'react-icons/bi';
@@ -17,7 +17,7 @@ const Contact = () => {
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-
+  const [showSuccessPopup, setShowSuccessPopup] = useState(false);
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -33,7 +33,7 @@ const Contact = () => {
         },
         'osyfFvTQprBPaBTx3' // Replace with your Email.js User ID
       );
-
+      setShowSuccessPopup(true);
       console.log('Email sent successfully');
       // Add any additional logic or UI updates as needed
     } catch (error) {
@@ -41,9 +41,23 @@ const Contact = () => {
       // Handle error, show error message, etc.
     }
   };
+  const closeSuccessPopup = () => {
+    setShowSuccessPopup(false);
+  };
+  useEffect(() => {
+    if (showSuccessPopup) {
+      const timerId = setTimeout(() => {
+        setShowSuccessPopup(false);
+      }, 2000);
+
+      // Clear the timer when the component unmounts or the popup is closed manually
+      return () => clearTimeout(timerId);
+    }
+  }, [showSuccessPopup]);
 
   return (
     <div className={ContactCss.main} id='contact'>
+      
       <div className={ContactCss.box}>
         <h1 className={ContactCss.get}>
           GET IN <span className={ContactCss.touch}>TOUCH.</span>
@@ -95,7 +109,11 @@ const Contact = () => {
             Submit
           </button>
         </form>
-
+        {showSuccessPopup && (
+          <div className={ContactCss.successPopup} onClick={closeSuccessPopup}>
+            Mail sent successfully!
+          </div>
+        )}
         <div className={ContactCss.social}>
           <a
             href={'https://www.instagram.com/ecell.lnmiit'}
@@ -116,6 +134,7 @@ const Contact = () => {
           </a>
         </div>
       </div>
+      
     </div>
   );
 };

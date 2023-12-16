@@ -7,6 +7,33 @@
     background-position: center;
 }
 
+/* Contact.module.css */
+
+.successPopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4caf50; /* Green color */
+    color: #fff; /* White text */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    cursor: pointer;
+    animation: fadeOut 3s ease-in-out; /* Add fade-out animation */
+  
+    @keyframes fadeOut {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  }
+  
+
 .box{
     width: 35%;
     margin-left: 6rem;
