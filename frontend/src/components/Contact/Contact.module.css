@@ -106,7 +106,7 @@
     cursor: pointer;
 }
 
-.social{
+/* .social{
     display: flex;
     justify-content: space-around;
     margin-top: 3.4rem;
@@ -119,7 +119,7 @@
 }
 .insta:hover{
     color: #00FEDF;
-}
+} */
 
 
 @media (min-width: 1025px) and (max-width: 1280px){ 
@@ -186,13 +186,13 @@
     .first{
         width: 98%;
     }
-    .insta{
+    /* .insta{
         height: 1.6rem;
         width: 1.6rem;
     }
     .social{
         margin-top: 2.7rem;
-    }
+    } */
 }
 
 @media (max-width: 480px) {
@@ -225,12 +225,12 @@
     .first{
         width: 98%;
     }
-    .insta{
+    /* .insta{
         height: 1.3rem;
         width: 1.3rem;
     }
     .social{
         margin-top: 2rem;
-    }
+    } */
 }
 
