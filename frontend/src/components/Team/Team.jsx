@@ -7,19 +7,14 @@ import Bansal from '../assets/Team/WhatsApp Image 2023-11-28 at 10.17.33 PM.jpeg
 import Shourya from '../assets/Team/IMG_5265 (1).jpg';
 import Harsh from '../assets/Team/IMG_20231201_150801.jpg';
 import Jay from '../assets/Team/1701188174968.jpg';
-<<<<<<< HEAD
 import Ayush from '../assets/Team/IMG_3842.jpg';
 import Pranjal from '../assets/Team/WhatsApp Image 2023-11-30 at 7.50.26 PM.jpeg';
 import Aditya from '../assets/Team/WhatsApp Image 2023-11-30 at 5.19.03 PM.jpeg';
-=======
-// import Pranjal from '../assets/Team/picofme.jpg'
->>>>>>> 8398a5e25775c5322c45e04abf6faf7ad507c8fc
 import Mitali from '../assets/Team/IMG-20230909-WA0082~2.jpg';
 // import { FaLinkedin } from "react-icons/fa";
 // import { SiGmail } from "react-icons/si";
 
 const teamMembers = [
-<<<<<<< HEAD
   { id: 1, name: 'Varun Ashok', title: 'Coordinator', photo: Varun,gmail: '22ucc056@lnmiit.ac.in',linkedin:'https://www.linkedin.com/in/varun-andaluri-813160225/' },
   { id: 1, name: 'Yash Gautam', title: 'Coordinator', photo: Yash,gmail: '21ucs235@lnmiit.ac.in',linkedin:'yash-gautam-108555229/'},
   { id: 1, name: 'Harsh Bansal', title: 'Coordinator', photo: Bansal ,gmail: '21ucc044@lnmiit.ac.in'  },
@@ -30,18 +25,6 @@ const teamMembers = [
   { id: 6, name: 'Jay Aggarwal', title: 'Frontend Developer', photo: Jay,gmail: '22ucs094@lnmiit.ac.in'  },
   { id: 7, name: 'Ayush Bansal', title: 'Frontend Developer', photo: Ayush,gmail: '22ucs042@lnmiit.ac.in'  },
   { id: 8, name: 'Mitali Manya', title: 'Frontend Developer', photo: Mitali,gmail: '22uec081@lnmiit.ac.in' },
-=======
-  { id: 1, name: 'Varun Ashok', title: 'Coordinator', photo: Varun },
-  { id: 1, name: 'Yash Gautam', title: 'Coordinator', photo: Yash },
-  { id: 1, name: 'Harsh Bansal', title: 'Coordinator', photo: Bansal },
-  // { id: 2, name: 'Pranjal Jain', title: 'Web Developer', photo: Pranjal },   
-  { id: 3, name: 'Kumar Harsh', title: 'Web Developer', photo: Harsh },
-  { id: 4, name: 'Shourya Gupta', title: 'UI/UX Designer', photo: Shourya },
-  { id: 5, name: 'Hugesh Kumar', title: 'Web Developer', photo: Varun },
-  { id: 6, name: 'Jay Aggarwal', title: 'Web Developer', photo: Jay },
-  { id: 7, name: 'Ayush Bansal', title: 'Web Developer', photo: Varun },
-  { id: 8, name: 'Mitali Manya', title: 'Web Developer', photo: Mitali},
->>>>>>> 8398a5e25775c5322c45e04abf6faf7ad507c8fc
  
 
 ];
