@@ -4,17 +4,17 @@ import './Gallery.css'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import man_with_tv from '../assets/image/ecellgallery 1.png';
-import img1 from '../assets/image/imge (1).jpg';
-import img2 from '../assets/image/imge (2).jpg';
-import img3 from '../assets/image/imge (3).jpg';
-import img4 from '../assets/image/imge (4).jpg';
-import img5 from '../assets/image/imge (5).jpg';
-import img6 from '../assets/image/imge (6).jpg';
-import img7 from '../assets/image/imge (7).jpg';
-import img8 from '../assets/image/imge (8).jpg';
-import img9 from '../assets/image/imge (9).jpg';
-import img10 from '../assets/image/imge (10).jpg';
-import img11 from '../assets/image/imge (11).jpg';
+import img1 from '../assets/image/1.png';
+import img2 from '../assets/image/2.png';
+import img3 from '../assets/image/3.png';
+import img4 from '../assets/image/4.png';
+import img5 from '../assets/image/5.png';
+import img6 from '../assets/image/6.png';
+import img7 from '../assets/image/7.png';
+import img8 from '../assets/image/8.png';
+import img9 from '../assets/image/9.png';
+import img10 from '../assets/image/10.png';
+import img11 from '../assets/image/11.png';
 
 
 const Gallery = () => {
