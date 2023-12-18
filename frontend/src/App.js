@@ -46,33 +46,27 @@ function App() {
 
   return (
     <>
-       {/* {loader && <Preloader />}Display preloader when loader is true */}
-      <Router>
-        <Toaster />
+      {loader ? (
+        <Preloader />
+      ) : (
+        <Router>
+          <Toaster />
 
-        <Navbar />
-        
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <div id='home'>
-                <Landingpage />
-                <AboutUs />
-                <Event />
-                <Gallery />
-                
-                <Footer />
-              </div>
-            }
-          />
-          <Route path="/esummit" element={<ESummit />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/team" element={<Team />} />
-        </Routes>
-        
-      </Router>
+          <Navbar />
+          <Routes>
+            {/* <Route path="/" element={<Profile />} /> */}
+            <Route path="/" element={<div id='home'><Landingpage />
+              <AboutUs /> <Event /> <Gallery /> <Team /></div>} />
+
+            <Route path="/esummit" element={<ESummit />} />
+            <Route path="/contact" element={<Contact />} />
+            {/* <Route exact path="/Admin/ViewEvents" element={<ViewEvents />} />  */}
+          </Routes>
+          <Footer />
+        </Router>
+      )}
     </>
+
   );
 }
 
