@@ -35,7 +35,7 @@ const Team = () => {
   const group2 = teamMembers.filter(member => member.id >= 6 && member.id <= 8);
 
   return (
-    <div className="team-container">
+    <div className="team-container" id='team'>
       <h1>OUR <span  className="text-team">COORDINATORS.</span></h1>
       <div className="team-row">
         {teamMembers.slice(0, 3).map((member) => (

@@ -3,7 +3,7 @@ import "./Preloader.css"; // Import the CSS code
 
 const Preloader = () => {
   return (
-<>
+<div className='preb'>
       
 		<div class="socket">
 			<div class="gel center-gel">
@@ -195,7 +195,7 @@ const Preloader = () => {
 			</div>
 			
 		</div>
-	</>
+	</div>
    
   );
 };

@@ -14,7 +14,6 @@ import { Toaster } from "react-hot-toast";
 import {
   BrowserRouter as Router,
   Route,
-  // Link,
   Routes,
 } from "react-router-dom";
 
@@ -23,7 +22,6 @@ function App() {
   const [mountainMoved, setMountainMoved] = useState(false);
   const [showESummit, setShowESummit] = useState(false);
   const [hideOtherSections, setHideOtherSections] = useState(true);
-
 
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -38,25 +36,43 @@ function App() {
     setShowESummit(true);
     setHideOtherSections(false);
   };
+  useEffect(() => {
+    if (loader) {
+      document.body.classList.add('preloader-active');
+    } else {
+      document.body.classList.remove('preloader-active');
+    }
+  }, [loader]);
 
   return (
     <>
+       {/* {loader && <Preloader />}Display preloader when loader is true */}
       <Router>
-      <Toaster />
+        <Toaster />
 
-      <Navbar />
-      <Routes>
-        {/* <Route path="/" element={<Profile />} /> */}
-        <Route path="/" element={<div id='home'><Landingpage />
-      <AboutUs /> <Event /> <Gallery /> <Team /></div>} />
+        <Navbar />
         
-        <Route path="/esummit" element={<ESummit />} /> 
-        <Route path="/contact" element={<Contact />} /> 
-        {/* <Route exact path="/Admin/ViewEvents" element={<ViewEvents />} />  */}
-      </Routes>
-      <Footer />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <div id='home'>
+                <Landingpage />
+                <AboutUs />
+                <Event />
+                <Gallery />
+                
+                <Footer />
+              </div>
+            }
+          />
+          <Route path="/esummit" element={<ESummit />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/team" element={<Team />} />
+        </Routes>
+        
       </Router>
-          </>
+    </>
   );
 }
 

@@ -65,11 +65,11 @@ const Navbar = () => {
           <Link to="/contact">
             Contact Us
           </Link>
-          <ScrollLink to="team-container" smooth={true} duration={800} onClick={() => scrollToSection("team-container")}>
-          <Link to='/'>
+          
+          <Link to='/team'>
             Our Team
             </Link>
-          </ScrollLink>
+         
         </div>
         <div className={`nav-icon`} onClick={handleNavClick}>
           {isNavOpen ? <FaTimes /> : <FaBars />}
