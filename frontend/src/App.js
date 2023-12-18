@@ -10,6 +10,13 @@ import Contact from './components/Contact/Contact.jsx';
 import Event from './components/Events.jsx';
 import Team from './components/Team/Team.jsx';
 import Footer from './components/Footer/Footer.jsx';
+import { Toaster } from "react-hot-toast";
+import {
+  BrowserRouter as Router,
+  Route,
+  // Link,
+  Routes,
+} from "react-router-dom";
 
 function App() {
   const [loader, setLoader] = useState(true);
@@ -34,26 +41,22 @@ function App() {
 
   return (
     <>
-      {loader ? (
-        <Preloader />
-      ) : (
-        <>
-          <Navbar onESummitClick={handleESummitClick} />
-          
-            <>
-              {hideOtherSections && <Landingpage mountainMoved={mountainMoved} />}
-              {hideOtherSections && <AboutUs />}
-              {hideOtherSections && <Event />}
-              {hideOtherSections && <Gallery />}
-              {hideOtherSections && <Team />}
-              {hideOtherSections && <Contact />}
-              {hideOtherSections && <Footer />}
-            </>
-          
-          {showESummit && <ESummit />}
-        </>
-      )}
-    </>
+      <Router>
+      <Toaster />
+
+      <Navbar />
+      <Routes>
+        {/* <Route path="/" element={<Profile />} /> */}
+        <Route path="/" element={<div id='home'><Landingpage />
+      <AboutUs /> <Event /> <Gallery /> <Team /></div>} />
+        
+        <Route path="/esummit" element={<ESummit />} /> 
+        <Route path="/contact" element={<Contact />} /> 
+        {/* <Route exact path="/Admin/ViewEvents" element={<ViewEvents />} />  */}
+      </Routes>
+      <Footer />
+      </Router>
+          </>
   );
 }
 

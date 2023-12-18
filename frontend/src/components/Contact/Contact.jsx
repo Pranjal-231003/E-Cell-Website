@@ -114,25 +114,7 @@ const Contact = () => {
             Mail sent successfully!
           </div>
         )}
-        <div className={ContactCss.social}>
-          <a
-            href={'https://www.instagram.com/ecell.lnmiit'}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaInstagram className={ContactCss.insta} />
-          </a>
-          <a href={'https://twitter.com/ecell_lnmiit'} target="_blank" rel="noopener noreferrer">
-            <FaXTwitter className={ContactCss.insta} />
-          </a>
-          <a
-            href={'https://www.linkedin.com/company/entrepreneurship-cell-the-lnmiit/'}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedinIn className={ContactCss.insta} />
-          </a>
-        </div>
+        
       </div>
       
     </div>

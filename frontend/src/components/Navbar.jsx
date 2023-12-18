@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import logo from "./assets/image/logo.svg";
 import { FaBars, FaTimes } from 'react-icons/fa';
@@ -35,27 +36,39 @@ const Navbar = () => {
   return (
     <header>
       <nav className="navbar">
-        <ScrollLink to="/">
+        <Link to='/'>
+        
           <img className="logo" src={logo} alt="Logo" />
-        </ScrollLink>
+        
+        </Link>
         <div className={`nav-links ${isNavOpen ? 'show-nav' : 'hide-nav'}`}>
           <ScrollLink to="gradiant" smooth={true} duration={800} onClick={() => scrollToSection("gradiant")}>
+            <Link to='/'>
             About
+            </Link>
           </ScrollLink>
-          <button className="button bg-blue-950 text-blue-400 border border-blue-400 border-b-4 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group" onClick={openESummit}>
+          <Link to='/esummit'>
+          <button className="button bg-blue-950 text-blue-400 border border-blue-400 border-b-4 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group">
             E-summit
           </button>
+          </Link>
           <ScrollLink to="events" smooth={true} duration={800} onClick={() => scrollToSection("events")}>
+          <Link to='/'>
             Events
+            </Link>
           </ScrollLink>
           <ScrollLink to="gallery-container" smooth={true} duration={800} onClick={() => scrollToSection("gallery-container")}>
+          <Link to='/'>
             Gallery
+            </Link>
           </ScrollLink>
-          <ScrollLink to="contact" smooth={true} duration={800} onClick={() => scrollToSection("contact")}>
+          <Link to="/contact">
             Contact Us
-          </ScrollLink>
+          </Link>
           <ScrollLink to="team-container" smooth={true} duration={800} onClick={() => scrollToSection("team-container")}>
+          <Link to='/'>
             Our Team
+            </Link>
           </ScrollLink>
         </div>
         <div className={`nav-icon`} onClick={handleNavClick}>
