@@ -7,6 +7,8 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    overflow-y: hidden;
+    height: 100vh;
 }
 
 .counter {
