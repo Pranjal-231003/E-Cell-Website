@@ -1,5 +1,3 @@
-/* For WebKit Browsers (Chrome, Safari) */
-/* You may also want to include the equivalent styles for Firefox, Edge, and other browsers */
 
 /* Track */
 ::-webkit-scrollbar {
@@ -42,7 +40,7 @@
   flex-direction: column;
   height: 100vh;
   width: 100%;
-
+  font-family: Montserrat;
   background-color: black;
   z-index: 0;
   overflow:hidden;
@@ -51,7 +49,7 @@
 
 .club_name{
   
-  font-size: 7rem;
+  font-size: 6.4em;
   overflow: hidden;
   text-align: center;
 
@@ -62,13 +60,13 @@
   -webkit-text-fill-color: transparent;
  
 
-  top: 15rem;
+  top: 13.1rem;
   z-index:2rem ;
 }
 .Ecell_container img{
   
   position: relative;
-  top: -43rem;
+  top: -38rem;
   left:-9.5rem;
   z-index: 10;
   display: block;
@@ -82,11 +80,11 @@ width: 120%;
 }
 .stroke{
  position: relative;
-  font-size: 7rem;
+  font-size: 6.4em;
   
 color: transparent;
  left: 0rem;
- top: 1.1rem;
+ top: 1rem;
  -webkit-text-stroke:1.8px #01FFF0;
 
   z-index: 99; 
@@ -94,7 +92,7 @@ color: transparent;
 .cell{
   -webkit-text-stroke: 2px rgb(255, 255, 255);
   position:relative;
- top: -10rem;
+ top: -1rem;
   font-size: 7rem;
   text-align: center;
   color: transparent;
@@ -107,38 +105,38 @@ color: transparent;
 }
 @media (max-width:1140px) {
   .cell{
-    font-size: 6rem;
-    top: -2rem;
-  }
-  .stroke{
-    font-size: 6rem;
+    font-size: 5.5rem;
     top: 7rem;
   }
+  .stroke{
+    font-size: 5.4rem;
+    top: 6.4rem;
+  }
   .club_name{
-    font-size: 6rem;
-    top: 19rem;
+    font-size: 5.4rem;
+    top: 16.6rem;
   }
   .Ecell_container img{
-    top: -32rem;
+    top: -26rem;
     width: 130%;
   }
 }
 @media (max-width:970px) {
   .cell{
-    font-size: 5rem;
-    top: 5rem;
+    font-size: 4em;
+    top: 15rem;
   }
   .stroke{
-    font-size: 5rem;
-    top: 12rem;
+    font-size: 4.4em;
+    top: 10.7rem;
   }
   .club_name{
-    font-size: 5rem;
-    top: 22rem;
+    font-size: 4.4em;
+    top: 19rem;
 
   }
   .Ecell_container img{
-    top: -19rem;
+    top: -13rem;
     /* left: -11rem; */
     width: 140%;
     transform: translate(-3%);
@@ -147,16 +145,16 @@ color: transparent;
 }
 @media (max-width:790px) {
   .cell{
-    font-size: 4rem;
-    top: 8rem;
+    font-size: 3.9em;
+    top: 14rem;
   }
   .stroke{
-    font-size: 4rem;
-    top: 11.99rem;
+    font-size: 3.9em;
+    top: 11rem;
   }
   .club_name{
-    font-size: 4rem;
-    top: 20rem;
+    font-size: 3.9em;
+    top: 18.4rem;
   }
   .Ecell_container img{
     top: -15.5rem;
@@ -166,62 +164,43 @@ color: transparent;
 }
 @media (max-width:690px) {
   .cell{
-    font-size: 3.6rem;
-    top: -8rem;
+    font-size: 3em;
+    top: 5rem;
   }
   .stroke{
-    font-size: 3.6rem;
-    top: -2.2rem;
+    font-size: 3em;
+    top: 4rem;
   }
   .club_name{
-    font-size: 3.6rem;
+    font-size: 3em;
+    top: 9.7rem;
   }
   .Ecell_container img{
-    top: -24rem;
-    left: -42rem;
-    height: 90%;
-    width: 200%;
-  }
-  .Ecell_container{
-    height: 45vh;
-  }
-}
-@media (max-width:690px) {
-  .cell{
-    font-size: 3.2rem;
-    top: -6rem;
-  }
-  .stroke{
-    font-size: 3.2rem;
-    top: -0.4rem;
-  }
-  .club_name{
-    font-size: 3.2rem;
-    top: 6rem;
-  }
-  .Ecell_container img{
-    top: -20rem;
+    top: -15rem;
     height: 90%;
     left: -5rem;
     width: 130%;
+  }
+  .Ecell_container{
+    height: 65vh;
   }
 
 }
 @media (max-width:530px) {
   .cell{
-    font-size: 2.6rem;
-    top: 1rem;
+    font-size: 2.35em;
+    top: 5rem;
   }
   .stroke{
-    font-size: 2.6rem;
-    top: 4.8rem;
+    font-size: 2.35em;
+    top: 4rem;
   }
   .club_name{
-    font-size: 2.6rem;
-    top: 10rem;
+    font-size: 2.35em;
+    top: 8.5rem;
   }
   .Ecell_container img{
-    top: -14rem;
+    top: -12rem;
     left: -3.5rem;
     width: 130%;
   }
@@ -229,16 +208,16 @@ color: transparent;
 }
 @media (max-width:420px) {
   .cell{
-    font-size: 2.2rem;
-    top: 5rem;
+    font-size: 1.65rem;
+    top: 7rem;
   }
   .stroke{
-    font-size: 2.2rem;
-    top: 7.59rem;
+    font-size: 1.85em;
+    top: 6rem;
   }
   .club_name{
-    font-size: 2.2rem;
-    top: 12rem;
+    font-size: 1.85em;
+    top: 9.5rem;
   }
   .Ecell_container img{
     top: -7rem;
@@ -248,6 +227,7 @@ color: transparent;
 
   .Ecell_container {
     animation: moveUp 2s;
+    height: 50vh;
   }
 }
 

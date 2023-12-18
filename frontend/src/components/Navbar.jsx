@@ -48,7 +48,7 @@ const Navbar = () => {
             </Link>
           </ScrollLink>
           <Link to='/esummit'>
-          <button className="button bg-blue-950 text-blue-400 border border-blue-400 border-b-4 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group">
+          <button className="overflow-hidden relative hover:brightness-150 active:opacity-75 duration-300 btn">
             E-summit
           </button>
           </Link>

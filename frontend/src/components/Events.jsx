@@ -3,11 +3,13 @@ import './App1.css';
 import st from './assets/image/stank.jpeg';
 import yp from './assets/image/yp.jpeg';
 import dm from './assets/image/dm.png';
-import sw from './assets/image/2.png';
+import sw from './assets/image/sweek.png';
 import ig from './assets/image/Untitled.png';
 import swe from './assets/image/swe.jpeg';
 import di from './assets/image/di.jpeg';
 import './AboutUs/AboutUs.css'
+import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
+
 
 function Events() {
   useEffect(() => {
@@ -49,55 +51,56 @@ function Events() {
 
   return (
     <div id='events'>
+      <div className="evh"><h1>EVENTS</h1></div>
       <div className="container2">
-        <h2 className='eveh' style={{ fontSize: '400%', fontWeight: 'normal' }}>WHAT WE PROVIDE</h2>
+        <h2 className='eveh' style={{ fontSize: '400%', fontWeight: 'normal' }}></h2>
         <div id="slide">
           <div className="item-s" style={{ backgroundImage: `url(${di})`}}>
             <div className="content">
-              <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '475%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}>DISRUPT</div>
-              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Disrupt is a platform where the institute's budding entrepreneurs can pitch their startups to a panel of industry experts and potential investors.</div>
+              <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '475%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}></div>
+              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}></div>
             </div>
           </div>
           <div className="item-s" style={{ backgroundImage: `url(${yp})` }}>
             <div className="content">
-              <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '475%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}>YELLOW PAGES</div>
-              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Yellow Pages is a contest where participants build products or services within a limited time frame and demonstrate their financial and marketing strategies.</div>
+              <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '475%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}></div>
+              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}></div>
             </div>
           </div>
           <div className="item-s" style={{ backgroundImage: `url(${st})` }}>
             <div className="content">
-              <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '475%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}>SHARK TANK</div>
-              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Shark Tank provided aspiring entrepreneurs with a distinctive opportunity to present their innovative ideas and skills to investors and venture capitalists. </div>
+              <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '475%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}></div>
+              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}> </div>
             </div>
           </div>
           <div className="item-s" style={{ backgroundImage: `url(${swe})` }}>
             <div className="content">
-              <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '525%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}>SELL WITH ECELL</div>
-              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Sell with Ecell -An exceptional opportunity to showcase your selling expertise and captivate customers. </div>
+              <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '525%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}></div>
+              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}> </div>
             </div>
           </div>
           <div className="item-s" style={{ backgroundImage: `url(${ig})` }}>
             <div className="content">
-              <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '525%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}>IGNITE</div>
-              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Ignite facilitates a dynamic platform wherein participants collaborate in real time to assemble groups and draw chits containing two words.</div>
+              <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '525%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}></div>
+              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}></div>
             </div>
           </div>
           <div className="item-s" style={{ backgroundImage: `url(${dm})` }}>
             <div className="content">
-              <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '525%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}>DEMYSTIFY</div>
-              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Demystify represents a case study competition that revolves around the meticulous examination of a chosen unicorn company by participating teams. In this endeavor, teams delve deep into various facets of the selected company, including the founder, their revenue-generating methodologies, and the intricate intricacies of their market strategies.</div>
+              <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '525%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}></div>
+              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}></div>
             </div>
           </div>
           <div className="item-s" style={{ backgroundImage: `url(${sw})` }}>
             <div className="content">
-              <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '525%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}>STARTUP WEEKEND</div>
-              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}>Startup Weekend, in collaboration with Google , unfolds over a 3-day duration.</div>
+              <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '525%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}></div>
+              <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}></div>
             </div>
           </div>
         </div>
         <div className="buttons">
-          <button id="prev"><i className="fa-solid fa-angle-left" /></button>
-          <button id="next"><i className="fa-solid fa-angle-right" /></button>
+          <button id="prev"><FaAngleLeft /></button>
+          <button id="next"><FaAngleRight /></button>
         </div>
       </div>
     </div>
