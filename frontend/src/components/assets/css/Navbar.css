@@ -26,7 +26,6 @@
   justify-content: center;
   height: 100%;
   text-align: center;
-
 }
 
 .nav-links a {
@@ -62,7 +61,6 @@
 
   .show-nav {
     transform: translateX(0);
-    
   }
 
   .hide-nav {
@@ -76,6 +74,8 @@
   }
 
   .overlay {
+    background: fixed;
+    overflow: hidden;
     position: fixed;
     top: 0;
     left: 0;
@@ -83,8 +83,6 @@
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 100;
-    
-
   }
 
   .nav-links a {
@@ -92,7 +90,6 @@
     color: rgb(255, 255, 255);
   }
 }
-
 
 .navbar {
   display: flex;
@@ -108,8 +105,6 @@
   z-index: 1000;
   position: fixed;
   height: 4rem;
-
-
 }
 .logo{
   width: 5rem;
@@ -135,14 +130,13 @@
   font-size: 1.4rem;
   padding: 0.7rem;
   margin-right: 2rem;
-
-
 }
 
 .nav-icon {
   display: none;
   cursor: pointer;
   color: white;
+  margin-right: 1.8rem;
 }
 
 
@@ -254,6 +248,9 @@
   }
 
   .overlay {
+    background-size: cover;
+    overflow: hidden;
+    background: fixed;
     position: fixed;
     top: 0;
     left: 0;
@@ -261,8 +258,6 @@
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 100;
-    
-
   }
 
   .nav-links a {
