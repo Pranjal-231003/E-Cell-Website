@@ -22,17 +22,17 @@ import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSl
 // import { loadBasic } from "@tsparticles/basic"; // if you are going to use `loadBasic`, install the "@tsparticles/basic" package too.
 
 const teamMembers = [
-  { id: 1, name: 'Varun Ashok', title: 'Coordinator', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/v1703008270/WhatsApp_Image_2023-11-28_at_10.17.34_PM_1_cbfsig.jpg',gmail: '22ucc056@lnmiit.ac.in',linkedin:'https://www.linkedin.com/in/varun-andaluri-813160225/' },
-  { id: 1, name: 'Yash Gautam', title: 'Coordinator', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/v1703008272/WhatsApp_Image_2023-11-28_at_10.17.34_PM_uuxjz9.jpg',gmail: '21ucs235@lnmiit.ac.in',linkedin:'yash-gautam-108555229/'},
-  { id: 1, name: 'Harsh Bansal', title: 'Coordinator', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/v1703008270/WhatsApp_Image_2023-11-28_at_10.17.33_PM_q0ilkd.jpg' ,gmail: '21ucc044@lnmiit.ac.in'  },
-  { id: 2, name: 'Pranjal Jain', title: 'Mentor', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/v1703008268/picofme_aielvq.jpg',gmail: 'pranjalshp2310@gmail.com'  },
-  { id: 2, name: 'Aditya Narang', title: 'Mentor', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/v1703008270/m2_arqzua.jpg',gmail: '21ucs010@lnmiit.ac.in'  },
-  { id: 3, name: 'Shourya Gupta', title: 'UI/UX Designer and Developer', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/v1703008258/IMG_5265_1_khjh67.jpg',gmail: 'shourya010604@gmail.com'  },
-  { id: 4, name: 'Kumar Harsh', title: 'Fullstack Developer', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/v1703008260/IMG_20231201_150801_wblszc.jpg',gmail: 'kumarharsh0205@gmail.com'  },
-  { id: 5, name: 'Aditya Kumar', title: 'Fullstack Developer', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/v1703008254/aditya_prqcbm.jpg',gmail: 'adityakumar290304@gmail.com',linkedin: 'www.linkedin.com/in/aditya-kumar007'  },
-  { id: 6, name: 'Jay Aggarwal', title: 'Frontend Developer', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/v1703008253/1701188174968_i85fwk.jpg',gmail: '22ucs094@lnmiit.ac.in'  },
-  { id: 7, name: 'Ayush Bansal', title: 'Frontend Developer', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/v1703008257/IMG_3842_pjw4zg.jpg',gmail: '22ucs042@lnmiit.ac.in'  },
-  { id: 8, name: 'Mitali Manya', title: 'Frontend Developer', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/v1703008263/IMG-20230909-WA0082_2_b3jyyq.jpg',gmail: '22uec081@lnmiit.ac.in' },
+  { id: 1, name: 'Varun Ashok', title: 'Coordinator', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703008270/WhatsApp_Image_2023-11-28_at_10.17.34_PM_1_cbfsig.jpg',gmail: '22ucc056@lnmiit.ac.in',linkedin:'https://www.linkedin.com/in/varun-andaluri-813160225/' },
+  { id: 1, name: 'Yash Gautam', title: 'Coordinator', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703008272/WhatsApp_Image_2023-11-28_at_10.17.34_PM_uuxjz9.jpg',gmail: '21ucs235@lnmiit.ac.in',linkedin:'yash-gautam-108555229/'},
+  { id: 1, name: 'Harsh Bansal', title: 'Coordinator', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703008270/WhatsApp_Image_2023-11-28_at_10.17.33_PM_q0ilkd.jpg' ,gmail: '21ucc044@lnmiit.ac.in'  },
+  { id: 2, name: 'Pranjal Jain', title: 'Mentor', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703008268/picofme_aielvq.jpg',gmail: 'pranjalshp2310@gmail.com'  },
+  { id: 2, name: 'Aditya Narang', title: 'Mentor', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703008270/m2_arqzua.jpg',gmail: '21ucs010@lnmiit.ac.in'  },
+  { id: 3, name: 'Shourya Gupta', title: 'UI/UX Designer and Developer', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703008258/IMG_5265_1_khjh67.jpg',gmail: 'shourya010604@gmail.com'  },
+  { id: 4, name: 'Kumar Harsh', title: 'Fullstack Developer', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703008260/IMG_20231201_150801_wblszc.jpg',gmail: 'kumarharsh0205@gmail.com'  },
+  { id: 5, name: 'Aditya Kumar', title: 'Fullstack Developer', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703008254/aditya_prqcbm.jpg',gmail: 'adityakumar290304@gmail.com',linkedin: 'www.linkedin.com/in/aditya-kumar007'  },
+  { id: 6, name: 'Jay Aggarwal', title: 'Frontend Developer', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703008253/1701188174968_i85fwk.jpg',gmail: '22ucs094@lnmiit.ac.in'  },
+  { id: 7, name: 'Ayush Bansal', title: 'Frontend Developer', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703008257/IMG_3842_pjw4zg.jpg',gmail: '22ucs042@lnmiit.ac.in'  },
+  { id: 8, name: 'Mitali Manya', title: 'Frontend Developer', photo: 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703008263/IMG-20230909-WA0082_2_b3jyyq.jpg',gmail: '22uec081@lnmiit.ac.in' },
  
 
 ];
