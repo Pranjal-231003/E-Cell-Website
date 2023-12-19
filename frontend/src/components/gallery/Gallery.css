@@ -59,23 +59,63 @@
 
 .slick-next:before {
   margin-left: 2.7rem !important;
-
 }
 @media screen and (max-width:600px) {
   .gallery-container {
     height: 80vh;
   }
-  
+  .slick-prev:before,
+.slick-next:before {
+  font-size: 3.5rem !important;
+}
+.slick-next:before {
+  margin-left: 2rem !important;
+}
+.carousel-container {
+  position: absolute;
+  width: 0rem;
+  transform: rotate(90deg); 
+  top: 8.9%;
+  left: 86.9%;
+}
 }
 @media screen and (max-width:500px) {
   .gallery-container {
     height: 65vh;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 2.7rem !important;
+  }
+  .slick-next:before {
+    margin-left: 1rem !important;
+  }
+  .carousel-container {
+    position: absolute;
+    width: 0rem;
+    transform: rotate(90deg); 
+    top: 10.5%;
+    left: 86%;
   }
   
 }
 @media screen and (max-width:400px) {
   .gallery-container {
     height: 55vh;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 2rem !important;
+  }
+  .slick-next:before {
+    margin-left: 0.2rem !important;
+  }
+  .carousel-container {
+    position: absolute;
+    width: 0rem;
+    transform: rotate(90deg); 
+    top: 12%;
+    left: 85.2%;
   }
   
 }

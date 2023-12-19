@@ -40,7 +40,6 @@
   flex-direction: column;
   height: 100vh;
   width: 100%;
-  font-family: Montserrat;
   background-color: black;
   z-index: 0;
   overflow:hidden;
@@ -49,7 +48,7 @@
 
 .club_name{
   
-  font-size: 6.4em;
+  font-size: 7em;
   overflow: hidden;
   text-align: center;
 
@@ -60,7 +59,7 @@
   -webkit-text-fill-color: transparent;
  
 
-  top: 13.1rem;
+  top: 15rem;
   z-index:2rem ;
 }
 .Ecell_container img{
@@ -80,11 +79,10 @@ width: 120%;
 }
 .stroke{
  position: relative;
-  font-size: 6.4em;
+  font-size: 7em;
   
 color: transparent;
  left: 0rem;
- top: 1rem;
  top: 1rem;
  -webkit-text-stroke:1.8px #01FFF0;
 
@@ -94,7 +92,7 @@ color: transparent;
   -webkit-text-stroke: 2px rgb(255, 255, 255);
   position:relative;
  top: -1rem;
-  font-size: 7rem;
+  font-size: 7em;
   text-align: center;
   color: transparent;
   z-index: 99;
@@ -106,75 +104,75 @@ color: transparent;
 }
 @media (max-width:1140px) {
   .cell{
-    font-size: 5.5rem;
-    top: 7rem;
+    font-size: 6.1rem;
+    top: 4rem;
   }
   .stroke{
-    font-size: 5.4rem;
-    top: 6.4rem;
+    font-size: 6.1em;
+    top: 3rem;
   }
   .club_name{
-    font-size: 5.4rem;
-    top: 16.6rem;
+    font-size: 6.1em;
+    top: 15.2rem;
   }
   .Ecell_container img{
-    top: -26rem;
+    top: -36rem;
     width: 130%;
   }
 }
 @media (max-width:970px) {
   .cell{
-    font-size: 4em;
-    top: 15rem;
+    font-size: 5em;
+    top: 11rem;
   }
   .stroke{
-    font-size: 4.4em;
-    top: 10.7rem;
+    font-size: 5em;
+    top: 7rem;
   }
   .club_name{
-    font-size: 4.4em;
-    top: 19rem;
+    font-size: 5em;
+    top: 17rem;
 
   }
   .Ecell_container img{
-    top: -13rem;
+    top: -24rem;
     /* left: -11rem; */
     width: 140%;
-    transform: translate(-3%);
+    transform: translate(-1.5%);
   }
 
 }
 @media (max-width:790px) {
   .cell{
-    font-size: 3.9em;
-    top: 14rem;
-  }
-  .stroke{
-    font-size: 3.9em;
+    font-size: 4.4em;
     top: 11rem;
   }
+  .stroke{
+    font-size: 4.4em;
+    top: 7rem;
+  }
   .club_name{
-    font-size: 3.9em;
-    top: 18.4rem;
+    font-size: 4.4em;
+    top: 15.9rem;
   }
   .Ecell_container img{
-    top: -15.5rem;
+    top: -22.5rem;
     left: -17rem;
     width: 180%;
   }
 }
 @media (max-width:690px) {
   .cell{
-    font-size: 3em;
+    font-size: 3.3em;
     top: 5rem;
   }
   .stroke{
-    font-size: 3em;
-    top: 4rem;
+    font-size: 3.3em;
+    top: 5rem;
   }
   .club_name{
-    font-size: 3em;
-    top: 9.7rem;
+    font-size: 3.3em;
+    top: 11.6rem;
   }
   .Ecell_container img{
     top: -15rem;
@@ -189,16 +187,16 @@ color: transparent;
 }
 @media (max-width:530px) {
   .cell{
-    font-size: 2.35em;
+    font-size: 2.6em;
     top: 5rem;
   }
   .stroke{
-    font-size: 2.35em;
+    font-size: 2.6em;
     top: 4rem;
   }
   .club_name{
-    font-size: 2.35em;
-    top: 8.5rem;
+    font-size: 2.6em;
+    top: 9.3rem;
   }
   .Ecell_container img{
     top: -12rem;
@@ -209,16 +207,16 @@ color: transparent;
 }
 @media (max-width:420px) {
   .cell{
-    font-size: 1.65rem;
+    font-size: 2em;
     top: 7rem;
   }
   .stroke{
-    font-size: 1.85em;
+    font-size: 2em;
     top: 6rem;
   }
   .club_name{
-    font-size: 1.85em;
-    top: 9.5rem;
+    font-size: 2em;
+    top: 10rem;
   }
   .Ecell_container img{
     top: -7rem;
