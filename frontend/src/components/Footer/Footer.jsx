@@ -4,7 +4,16 @@ import logo from  "../assets/image/logo.svg"
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Link } from 'react-router-dom';
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 function Footer() {
+    const scrollToSection = (sectionId) => {
+        scroll.scrollTo(sectionId, {
+          duration: 800,
+          delay: 0,
+          smooth: 'easeInOutQuart',
+        });
+      };
   return (
    <>
    <div className="footer_container">
@@ -14,8 +23,16 @@ function Footer() {
             <h2>
                 QUICK LINKS
             </h2>
-            <h4 className="footer_about">About</h4>
-            <h4 className="footer_about">Contact us</h4>
+            <ScrollLink to="gradiant" smooth={true} duration={800} onClick={() => scrollToSection("gradiant")}>
+            
+            <h4 className="footer_about">About Us</h4>
+            
+          </ScrollLink>
+          <Link to="/contact">
+          <h4 className="footer_about">Contact us</h4>
+          </Link>
+            
+            
 
         </div>
         <div className="logo_footer">

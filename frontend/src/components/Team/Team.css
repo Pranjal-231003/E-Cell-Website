@@ -32,7 +32,7 @@
     text-align: left;
     width: 200px;
     transition: transform 0.3s ease-in-out; 
-
+    object-fit: cover;
   }
 
   .team-icons{
@@ -130,6 +130,10 @@
     flex-wrap: wrap;
     margin: 0% 10%;
     width: 60%;
+}
+
+#tsparticles {
+  z-index: -1;
 }
 
 .team-details1 .team-info{

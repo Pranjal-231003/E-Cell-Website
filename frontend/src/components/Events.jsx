@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App1.css';
 import st from './assets/image/stank.jpeg';
 import yp from './assets/image/yp.jpeg';
@@ -7,11 +7,31 @@ import sw from './assets/image/sweek.png';
 import ig from './assets/image/Untitled.png';
 import swe from './assets/image/swe.jpeg';
 import di from './assets/image/di.jpeg';
+import dms from './assets/image/dms.png';
 import './AboutUs/AboutUs.css'
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 
 
 function Events() {
+  const [isSmallDevice, setIsSmallDevice] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      // Update state based on window width
+      setIsSmallDevice(window.innerWidth <= 600); // Adjust the breakpoint as needed
+    };
+
+    // Initial call to set initial state
+    handleResize();
+
+    // Attach event listener for window resize
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   useEffect(() => {
     let slideIndex = 0;
     const slide = document.getElementById('slide');
@@ -85,7 +105,7 @@ function Events() {
               <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}></div>
             </div>
           </div>
-          <div className="item-s" style={{ backgroundImage: `url(${dm})` }}>
+          <div className="item-s" style={{ backgroundImage: `url(${isSmallDevice ? dms : dm})` }}>
             <div className="content">
               <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '525%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}></div>
               <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}></div>
