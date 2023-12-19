@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './assets/css/Landingpage.css';
-import image from './assets/image/image 5.png';
+// import image from './assets/image/image 5.png';
 
 function Landingpage({ mountUp }) {
   return (
@@ -11,7 +11,7 @@ function Landingpage({ mountUp }) {
           <h1 className="stroke">ENTREPRENEURSHIP</h1>
           <h1 className="cell">CELL</h1>
         </div>
-        <img src={image} alt="" srcSet="" />
+        <img src={'https://res.cloudinary.com/dqcrzyxnt/image/upload/v1703006016/ecell/image_5_oyaau1.png'} alt="" srcSet="" />
       </div>
     </>
   );
