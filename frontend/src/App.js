@@ -56,7 +56,7 @@ function App() {
         <Routes>
           {/* <Route path="/" element={<Profile />} /> */}
           <Route path="/" element={<div id='home'><Landingpage />
-            <AboutUs /> <Event /> <Gallery /> <Team /> <Footer /></div>} />
+            <AboutUs /> <Event /> <Gallery />  <Footer /></div>} />
 
           <Route path="/esummit" element={<ESummit />} />
           <Route path="/contact" element={<Contact />} />
