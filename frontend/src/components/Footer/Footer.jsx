@@ -53,7 +53,7 @@ function Footer() {
         </div>
     </div>
     <div className="line"></div>
-    <p className='policy'>© 2022 All Rights Reserved. Ecell®</p>
+    <p className='policy'>© 2023 All Rights Reserved. Ecell®</p>
    </div>
    </>
   )

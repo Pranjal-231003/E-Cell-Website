@@ -21,6 +21,7 @@ const Navbar = () => {
 
   const openESummit = () => {
     console.log("Opening E-Summit");
+    setIsNavOpen(false);
     setShowESummit(true);
   };
 
