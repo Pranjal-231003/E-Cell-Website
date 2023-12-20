@@ -14,8 +14,9 @@
   z-index: 1000;
   position: fixed;
   height: 4rem;
-  gap: 2.5rem;
+  gap: 10rem;
   padding-right:2rem;
+  font-family: Mabry Pro;
 }
 
 
@@ -30,15 +31,15 @@
   align-items: center;
   justify-content: space-around;
   height: 100%;
-  width: 80%;
-  gap: 2.5rem;
+  width: 60%;
+  gap: 2rem;
 }
 
 .nav-links .link {
   text-decoration: none;
   color: #333;
   color: white;
-  font-size: 1.4em;
+  font-size: 1em;
   width: 9rem;
   padding: 0;
   margin: 0;
@@ -114,37 +115,53 @@
 @media only screen and (max-width: 960px) {
  
   .nav-links{
-    gap: 1.3rem;
+    gap: 1rem;
   }
   .nav-links .link{
-    font-size: 1.1em;
+    font-size: 0.8em;
+  }
+  .btn.link{
+    font-size: 0.8em;
+    padding: 0.5rem 0rem;
+  }
+  .btn{
+    padding: 0rem;
   }
 }
 
 
-@media only screen and (max-width: 790px) {
-  
-  .nav-links{
-    gap: 1rem;
-  }
-  .nav-links .link{
-    font-size: 0.9em;
-  }
-}
-@media only screen and (max-width: 635px) {
-  .navbar{
-    gap: 1rem;
-  }
+@media only screen and (max-width: 730px) {
   .nav-links{
     gap: 0.5rem;
   }
   .nav-links .link{
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
+  .btn.link{
+    font-size: 0.8em;
+    padding: 0.5rem 0rem;
+  }
+
+ 
+}
+@media only screen and (max-width: 655px) {
+  .navbar{
+    gap: 4rem;
+  }
+  .nav-links{
+    width: 70%;
+    gap: .25rem;
+  }
+  .nav-links .link{
+    font-size: 0.7em;
+  }
+ 
+ 
 }
 @media only screen and (max-width: 580px) {
   .navbar{
     justify-content: space-between;
+    touch-action: none;
   }
   .nav-links {
     position: fixed;
@@ -177,7 +194,7 @@
     font-size: 1.5rem;
     z-index: 1000;
     transform: translate(32rem,55%);
-    color: #333;
+    color: #fff;
   }
   .nav-links a {
    z-index: 100;
@@ -240,44 +257,4 @@
   -webkit-transition: box-shadow 0.2s ease-in;
   -moz-transition: box-shadow 0.2s ease-in;
   transition: box-shadow 0.2s ease-in;
-}
-
-
-
-
-@media only screen and (max-width: 580px) {
-  .nav-links {
-    /* position: fixed; */
-    top: 0;
-    left: 0;
-    z-index: 100;
-    height: 100vh;
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-    flex-direction: column;
-    justify-content: center;
-    transform: translateX(-100%);
-    transition: transform 0.3s ease-in;
-  }
-
-  .show-nav {
-    transform: translateX(0);
-    
-  }
-
-  .hide-nav {
-    transform: translateX(-100%);
-  }
-
-  .nav-icon {
-    display: block;
-    font-size: 1.5rem;
-    z-index: 1000;
-  }
-
-
-  .nav-links a {
-   z-index: 100;
-    color: rgb(255, 255, 255);
-  }
 }
