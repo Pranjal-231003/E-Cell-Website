@@ -75,7 +75,7 @@ function Events() {
       <div className="container2">
         <h2 className='eveh' style={{ fontSize: '400%', fontWeight: 'normal' }}></h2>
         <div id="slide">
-          <div className="item-s" style={{ backgroundImage: `url(${isSmallDevice ? 'https://res.cloudinary.com/dqcrzyxnt/image/upload/v1703009311/q_auto/startup_weekend_ztmi8v.png' : 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006023/ecell/sweek_uk5lvc.png'})`}}>
+          <div className="item-s" style={{ backgroundImage: `url(${isSmallDevice ? 'https://res.cloudinary.com/dmvphfrdo/image/upload/v1703050697/startup_weekend_ipya57.png' : 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006023/ecell/sweek_uk5lvc.png'})`}}>
             <div className="content">
               <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '475%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}></div>
               <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}></div>
