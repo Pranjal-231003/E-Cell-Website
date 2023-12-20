@@ -74,7 +74,7 @@ const Navbar = () => {
         <div className={`nav-icon`} onClick={handleNavClick}>
           {isNavOpen ? <FaTimes /> : <FaBars />}
         </div>
-        {isNavOpen && <div className="overlay" onClick={closeNav}></div>}
+        {isNavOpen && <div  onClick={closeNav}></div>}
       </nav>
       {showESummit && <ESummit />}
     </header>
