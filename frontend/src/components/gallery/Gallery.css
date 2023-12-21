@@ -1,20 +1,24 @@
-/* Gallery.css (or your preferred CSS file) */
+@font-face {
+  font-family: Ecell;
+  src: url(../assets/AboutUs/Montserrat-VariableFont_wght.ttf);
+}
 
 .gallery-container {
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  height: 140vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 110vh;
   margin-bottom: 0.25rem;
   /* background-color: aliceblue; */
 }
-
-@media (max-width: 767px)  {
-  .gallery-container {
-    height: 90vh !important;
-  }
+.gly {
+ color: #0ADEE9;
+text-align: center;
+font-family: Ecell;
+font-size: 55px;
+font-weight: 700;
 }
-
 .tv-container {
   position: relative;
 }
@@ -47,6 +51,15 @@
   box-shadow: 0rem 0rem 8rem rgb(19, 119, 206);
   transition: transform 0.5s ease-in-out;
 }
+.gif {
+  position: absolute;
+  top: 25%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  width: 54%;
+  height: 35%;
+  z-index: 600; /* Place the GIF above other elements */
+}
 .carousel-container {
   position: absolute;
   width: 0rem;
@@ -67,9 +80,12 @@
   margin-left: 2.7rem !important;
 }
 @media screen and (max-width:600px) {
-  .gallery-container {
-    height: 80vh;
-  }
+ .gallery-container{
+  height: 90vh;
+ }
+ .gly{
+  font-size: 45px;
+ }
   .slick-prev:before,
 .slick-next:before {
   font-size: 3.5rem !important;
@@ -86,9 +102,12 @@
 }
 }
 @media screen and (max-width:500px) {
-  .gallery-container {
-    height: 65vh;
-  }
+  .gallery-container{
+    height: 85vh;
+   }
+   .gly{
+    font-size: 40px;
+   }
   .slick-prev:before,
   .slick-next:before {
     font-size: 2.7rem !important;
@@ -105,9 +124,9 @@
   }
   
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:420px) {
   .gallery-container {
-    height: 55vh;
+    height: 70vh;
   }
   .slick-prev:before,
   .slick-next:before {
@@ -124,4 +143,12 @@
     left: 85.2%;
   }
   
+}
+@media screen and (max-width:370px) {
+  .gallery-container {
+    height: 60vh;
+  }
+  .gly{
+    font-size: 30px;
+   }
 }
