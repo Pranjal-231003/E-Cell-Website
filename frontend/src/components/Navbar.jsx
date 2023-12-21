@@ -11,6 +11,7 @@ const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [showESummit, setShowESummit] = useState(false);
 
+
   const handleNavClick = () => {
     setIsNavOpen(!isNavOpen);
   };
@@ -32,6 +33,7 @@ const Navbar = () => {
     });
     setShowESummit(false);
   };
+
 
   return (
     <header>

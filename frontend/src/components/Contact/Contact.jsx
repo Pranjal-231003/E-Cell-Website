@@ -111,7 +111,7 @@ const Contact = () => {
         </form>
         {showSuccessPopup && (
           <div className={ContactCss.successPopup} onClick={closeSuccessPopup}>
-            Mail sent successfully!
+            Request Sent!
           </div>
         )}
         

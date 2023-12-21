@@ -31,7 +31,7 @@ const AboutUs = () => {
         
 
 
-        <div className='heading'>WHO WE <span style={{color: "#00FEDF"}}>ARE.</span></div>
+        <div className='heading'>WHO WE <span style={{color: "#00FEDF"}}>ARE</span></div>
         
         <div className='container'>
             <div className='img'>

@@ -36,32 +36,57 @@
 
 
 .Ecell_container{
+  /* position: relative; */
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100svh;
   width: 100%;
   /* background-color: black; */
   z-index: 0;
   overflow:hidden;
   text-align: center;
-}
 
+  position: relative;
+}
+.name_wrapper{
+  position: relative;
+  top: 8rem;
+}
 .club_name{
   
   font-size: 7em;
   overflow: hidden;
   text-align: center;
 
-  position: relative;
+  /* position: relative; */
   background: linear-gradient(90deg, #01FFF0 6.15%, #FFF 50.08%, #4EFFF4 95.89%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
  
-
-  top: 15rem;
-  z-index:2rem ;
+  z-index:-1 ;
 }
+.stroke{
+
+  font-size: 7em;
+  overflow: hidden;
+  text-align: center;
+
+  position: absolute;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+
+   
+ color: transparent;
+  -webkit-text-stroke:1.8px #01FFF0;
+   z-index: 99; 
+ }
 .Ecell_container img{
   
   position: relative;
@@ -71,23 +96,13 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
+  /* transform: translateY(20%); */
 width: 120%;
 
 
 
 }
-.stroke{
- position: relative;
-  font-size: 7em;
-  
-color: transparent;
- left: 0rem;
- top: 1rem;
- -webkit-text-stroke:1.8px #01FFF0;
 
-  z-index: 99; 
-}
 .cell{
   -webkit-text-stroke: 2px rgb(255, 255, 255);
   position:relative;
@@ -99,7 +114,7 @@ color: transparent;
 }
 @media (max-width:1540px) {
  .Ecell_container img{
-  height: 95%;
+  /* height: 95%; */
  }
 }
 @media (max-width:1140px) {
@@ -107,13 +122,9 @@ color: transparent;
     font-size: 6.1rem;
     top: 4rem;
   }
-  .stroke{
+  .name_wrapper *{
     font-size: 6.1em;
-    top: 3rem;
-  }
-  .club_name{
-    font-size: 6.1em;
-    top: 15.2rem;
+    /* top: 14rem; */
   }
   .Ecell_container img{
     top: -36rem;
@@ -127,11 +138,11 @@ color: transparent;
   }
   .stroke{
     font-size: 5em;
-    top: 7rem;
+    /* top: 7rem; */
   }
   .club_name{
     font-size: 5em;
-    top: 17rem;
+    /* top: 17rem; */
 
   }
   .Ecell_container img{
@@ -149,11 +160,11 @@ color: transparent;
   }
   .stroke{
     font-size: 4.4em;
-    top: 7rem;
+    /* top: 7rem; */
   }
   .club_name{
     font-size: 4.4em;
-    top: 15.9rem;
+    /* top: 15.9rem; */
   }
   .Ecell_container img{
     top: -22.5rem;
@@ -168,11 +179,11 @@ color: transparent;
   }
   .stroke{
     font-size: 3.3em;
-    top: 5rem;
+    /* top: 5rem; */
   }
   .club_name{
     font-size: 3.3em;
-    top: 11.6rem;
+    /* top: 11.6rem; */
   }
   .Ecell_container img{
     top: -15rem;
@@ -181,7 +192,7 @@ color: transparent;
     width: 130%;
   }
   .Ecell_container{
-    height: 65vh;
+    height: 65svh;
   }
 
 }
@@ -192,11 +203,11 @@ color: transparent;
   }
   .stroke{
     font-size: 2.6em;
-    top: 4rem;
+    /* top: 4.1rem; */
   }
   .club_name{
     font-size: 2.6em;
-    top: 9.3rem;
+    /* top: 9.3rem; */
   }
   .Ecell_container img{
     top: -12rem;
@@ -212,11 +223,11 @@ color: transparent;
   }
   .stroke{
     font-size: 2em;
-    top: 6rem;
+    /* top: 6rem; */
   }
   .club_name{
     font-size: 2em;
-    top: 10rem;
+    /* top: 10rem; */
   }
   .Ecell_container img{
     top: -7rem;
@@ -226,7 +237,7 @@ color: transparent;
 
   .Ecell_container {
     animation: moveUp 2s;
-    height: 50vh;
+    height: 50svh;
   }
 }
 
@@ -241,7 +252,7 @@ color: transparent;
 
 @keyframes moveUp {
   from {
-    transform: translateY(20%);
+    transform: translateY(40%);
   }
   to {
     transform: translateY(0%);

@@ -16,7 +16,7 @@ import { Toaster } from "react-hot-toast";
 import {
   BrowserRouter as Router,
   Route,
-  Routes,
+  Routes, useNavigate ,
 } from "react-router-dom";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 // import { loadAll } from "@/tsparticles/all"; // if you are going to use `loadAll`, install the "@tsparticles/all" package too.
@@ -26,9 +26,14 @@ import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSl
 
 function App() {
   const [loader, setLoader] = useState(true);
+
+  const [showPreloader, setShowPreloader] = useState(false);
   const [mountainMoved, setMountainMoved] = useState(false);
   const [showESummit, setShowESummit] = useState(false);
   const [hideOtherSections, setHideOtherSections] = useState(true);
+
+
+
 
   
   useEffect(() => {
@@ -51,6 +56,9 @@ function App() {
       document.body.classList.remove('preloader-active');
     }
   }, [loader]);
+
+
+
   const [init, setInit] = useState(false);
 
   // this should be run only once per application lifetime
@@ -67,6 +75,8 @@ function App() {
       setInit(true);
     });
   }, []);
+
+  
 
   const particlesLoaded = (container) => {
     console.log(container);
@@ -93,11 +103,11 @@ function App() {
         },
         modes: {
           push: {
-            quantity: 4,
+            quantity: 1.2,
           },
           repulse: {
             distance: 200,
-            duration: 0.4,
+            duration: 0.6,
           },
         },
       },
@@ -110,7 +120,7 @@ function App() {
           distance: 150,
           enable: true,
           opacity: 0.5,
-          width: 1,
+          width: 3,
         },
         move: {
           direction: "none",
@@ -119,14 +129,15 @@ function App() {
             default: "bounce",
           },
           random: false,
-          speed: 6,
+          speed: 0.9,
           straight: false,
         },
         number: {
           density: {
             enable: true,
           },
-          value: 40,
+          value: 30,
+          max: 150,
         },
         opacity: {
           value: 0.5,
@@ -135,7 +146,7 @@ function App() {
           type: "circle",
         },
         size: {
-          value: { min: 1, max: 5 },
+          value: { min: 2, max: 5 },
         },
       },
       detectRetina: true,
@@ -149,6 +160,7 @@ function App() {
       <Preloader />
     ) : (
       <Router>
+       
         <Toaster />
 
         <Navbar />
@@ -160,10 +172,11 @@ function App() {
         particlesLoaded={particlesLoaded}
         options={options}
       /></div>} />
-
-          <Route path="/esummit" element={<><ESummit /></>} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/team" element={<Team />} />
+     
+      
+        <Route path="/esummit" element={<ESummit />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/team" element={<Team />} />
           {/* <Route exact path="/Admin/ViewEvents" element={<ViewEvents />} />  */}
         </Routes>
         
