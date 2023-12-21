@@ -48,12 +48,12 @@ function Footer() {
           </div>
         </div>
         <div className="address">
-            <p>The LNM Institute of Information Technology Jaipur ,Rajasthan (302031)</p>
+            <p>The LNM Institute of Information Technology Jaipur, Rajasthan (302031)</p>
         
         </div>
     </div>
     <div className="line"></div>
-    <p className='policy'>© 2022 All Rights Reserved. Ecell®</p>
+    <p className='policy'>© 2023 All Rights Reserved. Ecell®</p>
    </div>
    </>
   )

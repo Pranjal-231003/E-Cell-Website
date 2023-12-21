@@ -22,6 +22,7 @@ const Navbar = () => {
 
   const openESummit = () => {
     console.log("Opening E-Summit");
+    setIsNavOpen(false);
     setShowESummit(true);
   };
 
@@ -45,39 +46,43 @@ const Navbar = () => {
         </Link>
         <div className={`nav-links ${isNavOpen ? 'show-nav' : 'hide-nav'}`}>
           <ScrollLink to="gradiant" smooth={true} duration={800} onClick={() => scrollToSection("gradiant")}>
-            <Link to='/'>
+            <Link to='/' className='link' onClick={handleNavClick}>
             About
             </Link>
           </ScrollLink>
-          <Link to='/esummit'>
-          <button className="overflow-hidden relative hover:brightness-150 active:opacity-75 duration-300 btn">
+          <Link to='/esummit' className='link' onClick={handleNavClick}>
+          <button className="overflow-hidden relative hover:brightness-150 active:opacity-75 duration-300 link btn">
             E-summit
           </button>
           </Link>
           <ScrollLink to="events" smooth={true} duration={800} onClick={() => scrollToSection("events")}>
-          <Link to='/'>
+          <Link to='/' className='link' onClick={handleNavClick}>
             Events
             </Link>
           </ScrollLink>
           <ScrollLink to="gallery-container" smooth={true} duration={800} onClick={() => scrollToSection("gallery-container")}>
-          <Link to='/'>
+          <Link to='/' className='link' onClick={handleNavClick}>
             Gallery
             </Link>
           </ScrollLink>
-          <Link to="/contact">
+          <ScrollLink>
+          <Link to="/contact" className='link' onClick={handleNavClick}>
             Contact Us
           </Link>
-          
-          <Link to='/team'>
+          </ScrollLink>
+          <ScrollLink>
+          <Link to='/team' className='link' onClick={handleNavClick}>
             Our Team
             </Link>
+          </ScrollLink>
          
         </div>
+        </nav>
         <div className={`nav-icon`} onClick={handleNavClick}>
           {isNavOpen ? <FaTimes /> : <FaBars />}
         </div>
-        {isNavOpen && <div className="overlay" onClick={closeNav}></div>}
-      </nav>
+        {isNavOpen && <div  onClick={closeNav}></div>}
+     
       {showESummit && <ESummit />}
     </header>
   );

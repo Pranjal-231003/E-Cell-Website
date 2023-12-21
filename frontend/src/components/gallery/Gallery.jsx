@@ -4,22 +4,11 @@ import './Gallery.css'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import man_with_tv from '../assets/image/ecellgallery 1.png';
-import img1 from '../assets/image/1.png';
-import img2 from '../assets/image/2.png';
-import img3 from '../assets/image/3.png';
-import img4 from '../assets/image/4.png';
-import img5 from '../assets/image/5.png';
-import img6 from '../assets/image/6.png';
-import img7 from '../assets/image/7.png';
-import img8 from '../assets/image/8.png';
-import img9 from '../assets/image/9.png';
-import img10 from '../assets/image/10.png';
-import img11 from '../assets/image/11.png';
 
 
 const Gallery = () => {
   // Array of images to be displayed in the carousel
-  const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11];
+  const images = ['https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006010/ecell/11_gia6u6.png', 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006009/ecell/10_dyrb2l.png', 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006008/ecell/9_jiqtzi.png', 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006008/ecell/8_unwopm.png', 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006007/ecell/6_woagkn.png', 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006007/ecell/7_futeuc.png', 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006007/ecell/4_neo2bz.png', 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006006/ecell/5_d658ct.png', 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006006/ecell/3_gl6ka0.png', 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006006/ecell/2_k8oklo.png', 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006006/ecell/1_bspcj1.png'];
 
   // State to track the currently selected image
   const [selectedImage, setSelectedImage] = useState(images[0]);

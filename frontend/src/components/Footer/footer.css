@@ -12,7 +12,6 @@
 .line{
     width: 1350px;
     height: 1px;
-    
     background: rgba(255, 255, 255, 0.50);
 }
 .footer_content{
@@ -154,6 +153,10 @@ border-radius: 100px;
     }
     .logo_footer img{
         border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
     }
     .logo_footer h1{
         display: none;

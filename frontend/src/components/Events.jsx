@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import './App1.css';
-import st from './assets/image/stank.jpeg';
-import yp from './assets/image/yp.jpeg';
-import dm from './assets/image/dm.png';
-import sw from './assets/image/sweek.png';
-import ig from './assets/image/Untitled.png';
-import swe from './assets/image/swe.jpeg';
-import di from './assets/image/di.jpeg';
-import dms from './assets/image/dms.png';
+// import st from './assets/image/stank.jpeg';
+// import yp from './assets/image/yp.jpeg';
+// import dm from './assets/image/dm.png';
+// import sw from './assets/image/sweek.png';
+// import ig from './assets/image/Untitled.png';
+// import swe from './assets/image/swe.jpeg';
+// import di from './assets/image/di.jpeg';
+// import dms from './assets/image/dms.png';
 import './AboutUs/AboutUs.css'
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 
@@ -75,43 +75,43 @@ function Events() {
       <div className="container2">
         <h2 className='eveh' style={{ fontSize: '400%', fontWeight: 'normal' }}></h2>
         <div id="slide">
-          <div className="item-s" style={{ backgroundImage: `url(${di})`}}>
+          <div className="item-s" style={{ backgroundImage: `url(${isSmallDevice ? 'https://res.cloudinary.com/dmvphfrdo/image/upload/v1703050697/startup_weekend_ipya57.png' : 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006023/ecell/sweek_uk5lvc.png'})`}}>
             <div className="content">
               <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '475%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}></div>
               <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}></div>
             </div>
           </div>
-          <div className="item-s" style={{ backgroundImage: `url(${yp})` }}>
+          <div className="item-s" style={{ backgroundImage: `url(${isSmallDevice ? 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703009306/yp_dmu0qe.png' : 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006022/ecell/yp_m8u68x.jpg'})` }}>
             <div className="content">
               <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '475%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}></div>
               <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}></div>
             </div>
           </div>
-          <div className="item-s" style={{ backgroundImage: `url(${st})` }}>
+          <div className="item-s" style={{ backgroundImage:`url(${isSmallDevice ? 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703009309/IGNITE_ga1d0b.png' : 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006021/ecell/Untitled_zwaglk.png'})` }}>
             <div className="content">
               <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '475%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}></div>
               <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}> </div>
             </div>
           </div>
-          <div className="item-s" style={{ backgroundImage: `url(${swe})` }}>
+          <div className="item-s" style={{ backgroundImage: `url(${isSmallDevice ? 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006014/ecell/dms_rn6rxp.png' : 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006018/ecell/dm_yn4xnd.png'})` }}>
             <div className="content">
               <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '525%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}></div>
               <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}> </div>
             </div>
           </div>
-          <div className="item-s" style={{ backgroundImage: `url(${ig})` }}>
+          <div className="item-s" style={{ backgroundImage: `url(${isSmallDevice ? 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703009306/Disrupt_eo3wov.png' : 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006011/ecell/di_aoqudk.jpg'})` }}>
             <div className="content">
               <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '525%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}></div>
               <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}></div>
             </div>
           </div>
-          <div className="item-s" style={{ backgroundImage: `url(${isSmallDevice ? dms : dm})` }}>
+          <div className="item-s" style={{ backgroundImage: `url(${isSmallDevice ? 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703009305/St_pca3i1.png' : 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006020/ecell/stank_bkjtcb.jpg'})` }}>
             <div className="content">
               <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '525%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}></div>
               <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}></div>
             </div>
           </div>
-          <div className="item-s" style={{ backgroundImage: `url(${sw})` }}>
+          <div className="item-s" style={{ backgroundImage: `url(${isSmallDevice ? 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703009862/swe_uqixht.png' : 'https://res.cloudinary.com/dqcrzyxnt/image/upload/q_auto/v1703006019/ecell/swe_qxyb3s.jpg'})` }}>
             <div className="content">
               <div className="name" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '525%', lineHeight: '120%', fontWeight: 'normal', marginBottom: '12%' }}></div>
               <div className="des" style={{ fontFamily: '"Bebas Neue", sans-serif !important', fontSize: '135%', marginBottom: '-20%' }}></div>
