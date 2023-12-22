@@ -18,7 +18,7 @@
   z-index: 1000;
   position: fixed;
   height: 4rem;
-  gap: 16rem;
+  gap: 29rem;
   /* font-family: Mabry Pro; */
 }
 
@@ -112,6 +112,25 @@
 }
 
 
+@media only screen and (max-width: 1160px) {
+  .navbar{
+    gap: 25rem;
+  }
+
+}
+
+@media only screen and (max-width: 1100px) {
+  .navbar{
+    gap: 22rem;
+  }
+
+}
+@media only screen and (max-width: 1050px) {
+  .navbar{
+    gap: 19rem;
+  }
+
+}
 @media only screen and (max-width: 1025px) {
  
   .nav-links{
@@ -144,9 +163,21 @@
     padding: 0rem;
   }
 }
+@media only screen and (max-width: 840px) {
+  .navbar{
+    gap: 16rem;
+  }
+
+}
+@media only screen and (max-width: 790px) {
+  .navbar{
+    gap: 13rem;
+  }
+
+}
 
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 750px) {
   .nav-links{
     gap: 0.5rem;
   }
@@ -157,12 +188,12 @@
     font-size: 0.8em;
     padding: 0.5rem 0rem;
   }
-
- 
 }
-@media only screen and (max-width: 655px) {
+
+
+@media only screen and (max-width: 700px) {
   .navbar{
-    gap: 4rem;
+    gap: 10rem;
   }
   .nav-links{
     width: 70%;
@@ -171,8 +202,11 @@
   .nav-links .link{
     font-size: 0.7em;
   }
- 
- 
+}
+@media only screen and (max-width: 650px) {
+  .navbar{
+    gap: 7rem;
+  }
 }
 @media only screen and (max-width: 580px) {
   .navbar{
@@ -247,6 +281,13 @@
   .nav-icon {
   
     transform: translate(20rem,55%);
+  }
+}
+@media only screen and (max-width: 350px) {
+
+  .nav-icon {
+  
+    transform: translate(18.2rem,55%);
   }
 }
 
