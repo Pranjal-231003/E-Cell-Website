@@ -80,11 +80,11 @@ const Team = () => {
         },
         modes: {
           push: {
-            quantity: 4,
+            quantity: 1.2,
           },
           repulse: {
             distance: 200,
-            duration: 0.4,
+            duration: 0.6,
           },
         },
       },
@@ -97,7 +97,7 @@ const Team = () => {
           distance: 150,
           enable: true,
           opacity: 0.5,
-          width: 1,
+          width: 3,
         },
         move: {
           direction: "none",
@@ -106,14 +106,15 @@ const Team = () => {
             default: "bounce",
           },
           random: false,
-          speed: 6,
+          speed: 0.9,
           straight: false,
         },
         number: {
           density: {
             enable: true,
           },
-          value: 80,
+          value: 30,
+          max: 150,
         },
         opacity: {
           value: 0.5,
@@ -122,7 +123,7 @@ const Team = () => {
           type: "circle",
         },
         size: {
-          value: { min: 1, max: 5 },
+          value: { min: 2, max: 5 },
         },
       },
       detectRetina: true,
