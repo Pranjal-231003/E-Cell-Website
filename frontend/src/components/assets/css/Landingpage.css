@@ -112,11 +112,7 @@ width: 120%;
   color: transparent;
   z-index: 99;
 }
-@media (max-width:1540px) {
- .Ecell_container img{
-  /* height: 95%; */
- }
-}
+
 @media (max-width:1140px) {
   .cell{
     font-size: 6.1rem;
@@ -127,14 +123,14 @@ width: 120%;
     /* top: 14rem; */
   }
   .Ecell_container img{
-    top: -36rem;
+    top: -30rem;
     width: 130%;
   }
 }
 @media (max-width:970px) {
   .cell{
     font-size: 5em;
-    top: 11rem;
+    top: 12rem;
   }
   .stroke{
     font-size: 5em;
@@ -145,8 +141,11 @@ width: 120%;
     /* top: 17rem; */
 
   }
+  .name_wrapper{
+    top: 15rem;
+  }
   .Ecell_container img{
-    top: -24rem;
+    top: -20rem;
     /* left: -11rem; */
     width: 140%;
     transform: translate(-1.5%);

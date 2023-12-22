@@ -14,10 +14,14 @@ const Navbar = () => {
 
   const handleNavClick = () => {
     setIsNavOpen(!isNavOpen);
+    document.body.classList.toggle('scroll-disabled', !isNavOpen);
+
   };
 
   const closeNav = () => {
     setIsNavOpen(false);
+    document.body.classList.remove('scroll-disabled');
+
   };
 
   const openESummit = () => {
