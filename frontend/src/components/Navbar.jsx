@@ -25,6 +25,11 @@ const Navbar = () => {
     setIsNavOpen(false);
     setShowESummit(true);
   };
+ 
+    const handleScrollToTop = () => {
+      window.scrollTo({ top: 0, behavior: 'smooth', smooth:'easeInOutQuart' });
+    };
+  
 
   const scrollToSection = (sectionId) => {
     scroll.scrollTo(sectionId, {
@@ -39,7 +44,7 @@ const Navbar = () => {
   return (
     <header>
       <nav className="navbar">
-        <Link to='/'>
+        <Link to='/'  onClick={handleScrollToTop}>
         
           <img className="logo" src={logo} alt="Logo" />
         
@@ -81,7 +86,7 @@ const Navbar = () => {
         <div className={`nav-icon`} onClick={handleNavClick}>
           {isNavOpen ? <FaTimes /> : <FaBars />}
         </div>
-        {isNavOpen && <div  onClick={closeNav}></div>}
+        {isNavOpen && <div onClick={closeNav}></div>}
      
       {showESummit && <ESummit />}
     </header>
