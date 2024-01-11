@@ -125,9 +125,7 @@ font-weight: 700;
   
 }
 @media screen and (max-width:420px) {
-  .gallery-container {
-    height: 70vh;
-  }
+
   .slick-prev:before,
   .slick-next:before {
     font-size: 2rem !important;
@@ -146,7 +144,7 @@ font-weight: 700;
 }
 @media screen and (max-width:370px) {
   .gallery-container {
-    height: 60vh;
+    height: 70vh;
   }
   .gly{
     font-size: 30px;

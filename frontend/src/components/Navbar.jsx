@@ -9,22 +9,27 @@ import ESummit from './ESummit/ESummit.js';
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const [showESummit, setShowESummit] = useState(false);
+  // const [showESummit, setShowESummit] = useState(false);
 
 
   const handleNavClick = () => {
     setIsNavOpen(!isNavOpen);
+    document.body.classList.toggle('scroll-disabled', !isNavOpen);
+
   };
+  
 
   const closeNav = () => {
     setIsNavOpen(false);
+    document.body.classList.remove('scroll-disabled');
+
   };
 
-  const openESummit = () => {
-    console.log("Opening E-Summit");
-    setIsNavOpen(false);
-    setShowESummit(true);
-  };
+  // const openESummit = () => {
+  //   console.log("Opening E-Summit");
+  //   setIsNavOpen(false);
+  //   setShowESummit(true);
+  // };
  
     const handleScrollToTop = () => {
       window.scrollTo({ top: 0, behavior: 'smooth', smooth:'easeInOutQuart' });
@@ -37,7 +42,7 @@ const Navbar = () => {
       delay: 0,
       smooth: 'easeInOutQuart',
     });
-    setShowESummit(false);
+    // setShowESummit(false);
   };
 
 
@@ -51,32 +56,32 @@ const Navbar = () => {
         </Link>
         <div className={`nav-links ${isNavOpen ? 'show-nav' : 'hide-nav'}`}>
           <ScrollLink to="gradiant" smooth={true} duration={800} onClick={() => scrollToSection("gradiant")}>
-            <Link to='/' className='link' onClick={handleNavClick}>
+            <Link to='/' className='link' onClick={closeNav}>
             About
             </Link>
           </ScrollLink>
-          <Link to="https://www.esummitlnmiit.live/" target="_blank" className='link' onClick={handleNavClick}>
+          <Link to="https://www.esummitlnmiit.live/" target="_blank" className='link' >
           <button className="overflow-hidden relative hover:brightness-150 active:opacity-75 duration-300 link btn">
             E-summit
           </button>
           </Link>
           <ScrollLink to="events" smooth={true} duration={800} onClick={() => scrollToSection("events")}>
-          <Link to='/' className='link' onClick={handleNavClick}>
+          <Link to='/' className='link' onClick={closeNav}>
             Events
             </Link>
           </ScrollLink>
           <ScrollLink to="gallery-container" smooth={true} duration={800} onClick={() => scrollToSection("gallery-container")}>
-          <Link to='/' className='link' onClick={handleNavClick}>
+          <Link to='/' className='link' onClick={closeNav}>
             Gallery
             </Link>
           </ScrollLink>
           <ScrollLink>
-          <Link to="/contact" className='link' onClick={handleNavClick}>
+          <Link to="/contact" className='link' onClick={closeNav}>
             Contact Us
           </Link>
           </ScrollLink>
           <ScrollLink>
-          <Link to='/team' className='link' onClick={handleNavClick}>
+          <Link to='/team' className='link' onClick={closeNav}>
             Our Team
             </Link>
           </ScrollLink>
@@ -88,7 +93,7 @@ const Navbar = () => {
         </div>
         {isNavOpen && <div onClick={closeNav}></div>}
      
-      {showESummit && <ESummit />}
+      {/* {showESummit && <ESummit />} */}
     </header>
   );
 };
