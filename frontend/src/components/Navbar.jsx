@@ -55,7 +55,7 @@ const Navbar = () => {
             About
             </Link>
           </ScrollLink>
-          <Link to='/esummit' className='link' onClick={handleNavClick}>
+          <Link to="https://www.esummitlnmiit.live/" target="_blank" className='link' onClick={handleNavClick}>
           <button className="overflow-hidden relative hover:brightness-150 active:opacity-75 duration-300 link btn">
             E-summit
           </button>
