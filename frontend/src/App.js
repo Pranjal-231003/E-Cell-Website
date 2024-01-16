@@ -174,7 +174,7 @@ function App() {
       /></div>} />
      
       
-        <Route path="/esummit" element={<ESummit />} />
+        {/* <Route path="/esummit" element={<ESummit />} /> */}
         <Route path="/contact" element={<Contact />} />
         <Route path="/team" element={<Team />} />
           {/* <Route exact path="/Admin/ViewEvents" element={<ViewEvents />} />  */}
