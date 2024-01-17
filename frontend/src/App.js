@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import './App.css';
 import AboutUs from './components/AboutUs/AboutUs.js';
-import ESummit from './components/ESummit/ESummit.js';
+// import ESummit from './components/ESummit/ESummit.js';
 import Landingpage from './components/Landingpage';
 import Navbar from './components/Navbar';
 import Preloader from './components/preloader/Preloader.jsx';
